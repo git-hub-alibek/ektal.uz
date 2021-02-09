@@ -103,9 +103,46 @@
                                         </div>
                                     </nav>
                                 </div>
-                                <div class="menu-right-box ml-auto">
-                                    <a href="#" class="search-btn"><i class="optico-icon-search-1"></i></a>
-                                </div>
+                                <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                                            <ul class="navigation clearfix">
+                                                <li class="dropdown active"><a href="index.html">Home</a>
+                                                    <ul>
+                                                        <li><a href="index.html">Home page 01</a></li>
+                                                        <li class="active"><a href="index-02.html">Home page 02</a></li>
+                                                        <li><a href="index-03.html">Home page 03</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="#">Pages</a>
+                                                    <ul>
+                                                        <li><a href="about.html">About</a></li>
+                                                        <li><a href="treatments.html">Treatments</a></li>
+                                                        <li><a href="our-doctors.html">Our Doctors</a></li>
+                                                        <li><a href="doctor-single.html">Doctor Single</a></li>
+                                                        <li><a href="faq.html">Faq</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href="Service.html">Service</a>
+                                                    <ul>
+                                                        <li><a href="service.html">Service 01</a></li>
+                                                        <li><a href="service-2.html">Service 02</a></li>
+                                                        <li><a href="service-detail.html">Service Detail</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="before-after.html">Before & After</a></li>
+                                                <li class="dropdown">
+                                                    <a href="#">Blog</a>
+                                                    <ul>
+                                                        <li><a href="blog-large-image.html">Blog Large Image</a></li>
+                                                        <li><a href="blog-grid.html">Blog  Grid</a></li>
+                                                        <li><a href="blog-left-image.html">Blog Left Image</a></li>
+                                                        <li><a href="blog-detail.html">Blog Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                        </div>
                             </div>
                         </div>
                     </div>

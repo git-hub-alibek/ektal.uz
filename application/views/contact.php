@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-/assets/js" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ektal Artemie Cysts</title>
+    <title><?php echo lang('title');?></title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -54,27 +54,7 @@
         <!-- page content -->
         <div class="page-content">
 
-            <!-- Inner Banner -->
-            <section class="inner-banner">
-                <div class="titlebar-main">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-12">
-                                <h1 class="inner-page-title">CONTACT US</h1>
-                            </div>
-                            <div class="col-lg-6 col-md-12 text-lg-right">
-                                <nav aria-label="breadcrumb" class="breadcrumb-section d-flex justify-content-center  justify-content-lg-end">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="/"><?php echo lang('title');?></a></li>
-                                        <li class="breadcrumb-item active" aria-current="page"><?php echo lang('contact');?></li>
-                                    </ol>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- banner end -->
+           
 
             <!-- Contact -->
             <section class="section-mdt bg-lightgrey">
@@ -82,9 +62,9 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-md-12">
                             <div class="section-title text-center">
-                                <h4 class="subheading skincolor">GET IN TOUCH</h4>
-                                <h2>WE ARE OPEN TO ALL <strong>SUGGESTIONS<br/> FROM OUR AUDIENCE.</strong></h2>
-                                <p>Come and visit our quarters or simply send us an email anytime you want consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                                <h4 class="subheading skincolor"><?php echo lang('menu_contact');?></h4>
+                                <h2> <strong><?php echo lang('menu_contact');?></strong></h2>
+                               
                             </div>
                         </div>
                     </div>
@@ -98,11 +78,11 @@
                                     <div class="iconbox-inner">
                                         <div class="iconbox-contents">
                                             <div class="iconbox-title">
-                                                <h2>Phone Number</h2>
+                                                <h2><?php echo lang('phone');?></h2>
                                             </div>
                                             <div class="iconbox-desc">
-                                                <p>Phone 01: + 1800 562 2487</p>
-                                                <p>Phone 02: + 3215 546 8975</p>
+                                                <p>+998944580715</p>
+                                                <p>+998944580715</p>
                                             </div>
                                         </div>
                                     </div>
@@ -118,11 +98,10 @@
                                     <div class="iconbox-inner">
                                         <div class="iconbox-contents">
                                             <div class="iconbox-title">
-                                                <h2>Our Address</h2>
+                                                <h2><?php echo lang('our_address');?></h2>
                                             </div>
                                             <div class="iconbox-desc">
-                                                <p>351 Montreal Ave, Staten
-                                                    <br/>Island, NY 10306</p>
+                                                <p><?php echo lang('adress');?></p>
                                             </div>
                                         </div>
                                     </div>
@@ -138,11 +117,10 @@
                                     <div class="iconbox-inner">
                                         <div class="iconbox-contents">
                                             <div class="iconbox-title">
-                                                <h2>Email Address</h2>
+                                                <h2><?php echo lang('email');?></h2>
                                             </div>
                                             <div class="iconbox-desc">
-                                                <p>info-example@optico.com</p>
-                                                <p>support@optico.com</p>
+                                                <p>ektal860@mail.ru</p>
                                             </div>
                                         </div>
                                     </div>
@@ -155,28 +133,28 @@
                         <div class="col-lg-4 appointment-image">
                         </div>
                         <div class="col-lg-8 appointment-inner">
-                            <h3>Please call +18003838890 if urgent</h3>
-                            <p>your personal case manager will ensure thate you receive the best possible care</p>
+                            <h4><?php echo lang('contact_text');?></h4>
+                           
                             <div class="contact-form">
                                 <form>
                                     <div class="form-row">
                                         <div class="form-group col-lg-6">
-                                            <input id="name" type="text" class="form-control" placeholder="Your Name" name="Your-Name">
+                                            <input id="name" type="text" class="form-control" placeholder="<?php echo lang('name');?>" name="Your-Name">
                                         </div>
                                         <div class="form-group col-lg-6">
-                                            <input id="email" class="form-control" placeholder="Your Email" name="email" type="email" value="" aria-required="true">
+                                            <input id="email" class="form-control" placeholder="<?php echo lang('email');?>" name="email" type="email" value="" aria-required="true">
                                         </div>
                                         <div class="form-group col-lg-6">
-                                            <input id="phone" type="text" class="form-control" placeholder="Your Phone" name="your-phone">
+                                            <input id="phone" type="text" class="form-control" placeholder="<?php echo lang('phone');?>" name="your-phone">
                                         </div>
                                         <div class="form-group col-lg-6">
-                                            <input id="subject" type="text" class="form-control" placeholder="subject" name="subject">
+                                            <input id="subject" type="text" class="form-control" placeholder="<?php echo lang('subject');?>" name="subject">
                                         </div>
                                         <div class="form-group col-lg-12">
-                                            <textarea id="comment" class="form-control" placeholder="Message" name="message" cols="45" rows="5" aria-required="true"></textarea>
+                                            <textarea id="comment" class="form-control" placeholder="<?php echo lang('message');?>" name="message" cols="45" rows="5" aria-required="true"></textarea>
                                         </div>
                                         <div class="form-group col-lg-12">
-                                            <a href="#" class="btn">SEND MESSAGE</a>
+                                            <a href="#" class="btn"><?php echo lang('send');?></a>
                                         </div>
                                     </div>
                                 </form>
@@ -225,33 +203,33 @@
     </div>
     <!-- Search Box End Here -->
 
-    <!-- JS
+    <!-- /assets/js
         ============================================ -->
 
-    <!-- jQuery JS -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- jquery Waypoints JS -->
-    <script src="js/jquery-waypoints.js"></script>
-    <!-- jquery Appear JS -->
-    <script src="js/jquery.appear.js"></script>
-    <!-- Numinate JS -->
-    <script src="js/numinate.min.js"></script>
-    <!-- Slick.min JS -->
-    <script src="js/slick.min.js"></script>
-    <!-- Slick.min JS -->
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <!-- Circle Progress JS -->
-    <script src="js/circle-progress.js"></script>
-    <!-- Event Move JS -->
-    <script src="js/jquery.event.move.js"></script>
-    <!-- Twentytwenty JS -->
-    <script src="js/jquery.twentytwenty.js"></script>
-    <!-- Scripts JS -->
-    <script src="js/scripts.js"></script>
+    <!-- jQuery /assets/js -->
+    <script src="/assets/js/jquery.min./assets/js"></script>
+    <!-- Popper /assets/js -->
+    <script src="/assets/js/popper.min./assets/js"></script>
+    <!-- Bootstrap /assets/js -->
+    <script src="/assets/js/bootstrap.min./assets/js"></script>
+    <!-- jquery Waypoints /assets/js -->
+    <script src="/assets/js/jquery-waypoints./assets/js"></script>
+    <!-- jquery Appear /assets/js -->
+    <script src="/assets/js/jquery.appear./assets/js"></script>
+    <!-- Numinate /assets/js -->
+    <script src="/assets/js/numinate.min./assets/js"></script>
+    <!-- Slick.min /assets/js -->
+    <script src="/assets/js/slick.min./assets/js"></script>
+    <!-- Slick.min /assets/js -->
+    <script src="/assets/js/jquery.prettyPhoto./assets/js"></script>
+    <!-- Circle Progress /assets/js -->
+    <script src="/assets/js/circle-progress./assets/js"></script>
+    <!-- Event Move /assets/js -->
+    <script src="/assets/js/jquery.event.move./assets/js"></script>
+    <!-- Twentytwenty /assets/js -->
+    <script src="/assets/js/jquery.twentytwenty./assets/js"></script>
+    <!-- Scripts /assets/js -->
+    <script src="/assets/js/scripts./assets/js"></script>
 </body>
 
 </html>
