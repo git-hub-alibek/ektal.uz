@@ -204,7 +204,7 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #1A327F;
+    color: #005267;
 }
 h1,
 h2,
@@ -253,8 +253,8 @@ a.link-btn i,
     cursor: pointer; 
     outline: none !important; 
     -webkit-font-smoothing: antialiased; 
-    background-color: #1A327F; 
-    border: 2px solid #1A327F; 
+    background-color: #005267; 
+    border: 2px solid #005267; 
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 .btn:hover,
@@ -268,12 +268,12 @@ a.link-btn i,
     background-color: transparent; 
     font-size: 14px; 
     padding: 12px 40px; 
-    color: #1A327F; 
-    border: 1px solid #1A327F;
+    color: #005267; 
+    border: 1px solid #005267;
 }
 .btn.btn-outline:hover,
 .btn.btn-outline:focus { 
-    background-color: #1A327F; 
+    background-color: #005267; 
     color: #ffffff; 
 }
 .btn-inline{
@@ -414,7 +414,7 @@ a.link-btn i,
 .home-banner.home-slider-four .carousel-item h1 span,
 .home-banner.home-slider-first .carousel-item .shapewrapper-inner,
 .bottom-footer a:hover {
-	color: #1A327F;
+	color: #005267;
 }
 
 /** 2.Background-color **/
@@ -451,7 +451,7 @@ a.link-btn i,
 .tagcloud a:hover,
 .comment-meta .reply a:hover,
 .pricingtable-icon{
-   background: #1A327F;
+   background: #005267;
 }
 
 /** 3.DarkGrey-color **/
@@ -483,7 +483,7 @@ a.link-btn i,
 .header-style-3.site-header .site-header-menu,
 .ts-search-overlay .ts-site-searchform button,
 .bg-darkgrey{
-	background: #1A327F;	
+	background: #005267;	
 }
 
 /** 5.Light-bg-color **/
@@ -513,7 +513,7 @@ a.link-btn i,
 
 /** 8.Theme-border-color **/
 .blog-style-1 .blog-format-icon{
-    border-top: 60px solid #1A327F;
+    border-top: 60px solid #005267;
 }
 
 /*----------------------------------------*/
@@ -794,7 +794,7 @@ a.link-btn i,
     line-height: 16px;
     letter-spacing: 0.5px;
     color: #fff;
-    background-color:#1A327F;
+    background-color:#005267;
 }
 .main-menu .navigation > li > ul li.active a,
 .main-menu .navigation > li > ul a:hover{
@@ -991,7 +991,7 @@ a.link-btn i,
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(127, 197, 64, 0.90);
+    background-color:#005267;
     -webkit-transition: all 300ms;
     -o-transition: all 300ms;
     -moz-transition: all 300ms;
@@ -1054,7 +1054,7 @@ a.link-btn i,
     position: relative;
 }
 .ts-search-overlay input[type="search"] {
-    border-bottom-color: #1A327F;
+    border-bottom-color: #005267;
 }
 .ts-search-overlay input[type="search"] {
     border: none;

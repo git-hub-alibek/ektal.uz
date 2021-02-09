@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ektal</title>
+    <title>Ektal Artemie Cysts</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,31 +15,31 @@
         ============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <!-- Flaticon -->
-    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
     <!-- Optico Icons -->
-    <link rel="stylesheet" href="assets/css/optico-icons.css">
+    <link rel="stylesheet" href="/assets/css/optico-icons.css">
     <!-- Themify Icons -->
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/assets/css/themify-icons.css">
     <!-- Slick -->
-    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
     <!-- Slick Theme -->
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="/assets/css/slick-theme.css">
     <!-- Pretty Photo -->
-    <link rel="stylesheet" href="assets/css/prettyPhoto.css">
+    <link rel="stylesheet" href="/assets/css/prettyPhoto.css">
     <!-- Twentytwenty -->
-    <link rel="stylesheet" href="assets/css/twentytwenty.css">
+    <link rel="stylesheet" href="/assets/css/twentytwenty.css">
     <!-- Shortcode CSS -->
-    <link rel="stylesheet" href="assets/css/shortcode.css">
+    <link rel="stylesheet" href="/assets/css/shortcode.css">
     <!-- Base CSS -->
-    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 
 <body>
@@ -82,7 +82,7 @@
                                 <div>
                                     <div class="service-box service-style-2">
                                         <div class="service-thumbnail">
-                                            <img src="assets/images/services/service-01.jpg" class="img-fluid" alt="">
+                                            <img src="/assets/images/services/service-01.jpg" class="img-fluid" alt="">
                                         </div>
                                         <div class="service-content">
                                             <div class="service-inner">
@@ -99,7 +99,7 @@
                                 <div>
                                     <div class="service-box service-style-2">
                                         <div class="service-thumbnail">
-                                            <img src="assets/images/services/service-02.jpg" class="img-fluid" alt="">
+                                            <img src="/assets/images/services/service-02.jpg" class="img-fluid" alt="">
                                         </div>
                                         <div class="service-content">
                                             <div class="service-inner">
@@ -116,7 +116,7 @@
                                 <div>
                                     <div class="service-box service-style-2">
                                         <div class="service-thumbnail">
-                                            <img src="assets/images/services/service-03.jpg" class="img-fluid" alt="">
+                                            <img src="/assets/images/services/service-03.jpg" class="img-fluid" alt="">
                                         </div>
                                         <div class="service-content">
                                             <div class="service-inner">
@@ -129,22 +129,8 @@
                                     </div>
                                 </div>
 
-                                <!-- slide-4 -->
-                                <div>
-                                    <div class="service-box service-style-2">
-                                        <div class="service-thumbnail">
-                                            <img src="assets/images/services/service-04.jpg" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="service-content">
-                                            <div class="service-inner">
-                                                <h4 class="service-box-title"><a href="service-detail.html">Refractive Nature</a></h4>
-                                                <div class="service-desc">
-                                                    <p>Doctor Timetable Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                               
+                            
                             </div>
                         </div>
                     </div>
@@ -157,7 +143,7 @@
                 <div class="container">
                     <div class="row expert-service align-items-lg-center align-items-md-end">
                         <div class="col-md-12 col-lg-6">
-                            <img src="assets/images/img-03.png" class="img-fluid" alt="" />
+                            <img src="/assets/images/img-03.jpg" class="img-fluid" alt="" />
                         </div>
                         <div class="col-md-12 col-lg-6 pr-4 pr-md-0 mb-lg-40 mt-md-50">
                             <div class="section-title section-title-white">
@@ -275,8 +261,8 @@
                     <div class="row skin-bg-color align-items-center">
                         <div class="col-lg-6 col-md-12 pl-0 pr-md-0 pr-sm-0">
                             <div class="twentytwenty-container">
-                                <img src="assets/images/before-after/1.jpg" class="img-fluid w-100" alt="">
-                                <img src="assets/images/before-after/2.jpg" class="img-fluid w-100" alt="">
+                                <img src="/assets/images/before-after/1.jpg" class="img-fluid w-100" alt="">
+                                <img src="/assets/images/before-after/2.jpg" class="img-fluid w-100" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 pl-4 pr-4 white-color pt-md-30 pb-md-30">
@@ -351,7 +337,7 @@
                                             </div>
                                             <div class="testimonialbox-wrap d-flex">
                                                 <div class="testimonialbox-thumbnail">
-                                                    <img src="assets/images/testimonial/testimonial-01.jpg" class="img-fluid" alt="">
+                                                    <img src="/assets/images/testimonial/testimonial-01.jpg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="testimonialbox-author">
                                                     <h3 class="author-name">Victoria Porter</h3>
@@ -370,7 +356,7 @@
                                             </div>
                                             <div class="testimonialbox-wrap d-flex">
                                                 <div class="testimonialbox-thumbnail">
-                                                    <img src="assets/images/testimonial/testimonial-02.jpg" class="img-fluid" alt="">
+                                                    <img src="/assets/images/testimonial/testimonial-02.jpg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="testimonialbox-author">
                                                     <h3 class="author-name">Maria Flynn</h3>
@@ -389,7 +375,7 @@
                                             </div>
                                             <div class="testimonialbox-wrap d-flex">
                                                 <div class="testimonialbox-thumbnail">
-                                                    <img src="assets/images/testimonial/testimonial-03.jpg" class="img-fluid" alt="">
+                                                    <img src="/assets/images/testimonial/testimonial-03.jpg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="testimonialbox-author">
                                                     <h3 class="author-name">Gina Kennedy</h3>
@@ -413,22 +399,22 @@
                              <div class="col-lg-12">
                                   <div class="slick-carousel dots-right" data-autoplay="true" data-dots="false" data-arrows="false" data-slides="5" data-tslides="3" data-islides="1">
                                     <div class="text-center " data-tooltip="Client 1">
-                                        <img class="logo-img" alt="Client 1" src="assets/images/client/client-01.png" />
+                                        <img class="logo-img" alt="Client 1" src="/assets/images/client/client-01.png" />
                                     </div>
                                      <div class="text-center " data-tooltip="Client 2">
-                                        <img class="logo-img" alt="Client 2" src="assets/images/client/client-02.png" />
+                                        <img class="logo-img" alt="Client 2" src="/assets/images/client/client-02.png" />
                                     </div>
                                      <div class="text-center " data-tooltip="Client 3">
-                                        <img class="logo-img" alt="Client 3" src="assets/images/client/client-03.png" />
+                                        <img class="logo-img" alt="Client 3" src="/assets/images/client/client-03.png" />
                                     </div>
                                      <div class="text-center " data-tooltip="Client 4">
-                                        <img class="logo-img" alt="Client 4" src="assets/images/client/client-04.png" />
+                                        <img class="logo-img" alt="Client 4" src="/assets/images/client/client-04.png" />
                                     </div>
                                      <div class="text-center " data-tooltip="Client 5">
-                                        <img class="logo-img" alt="Client 5" src="assets/images/client/client-05.png" />
+                                        <img class="logo-img" alt="Client 5" src="/assets/images/client/client-05.png" />
                                     </div>
                                      <div class="text-center " data-tooltip="Client 6">
-                                        <img class="logo-img" alt="Client 6" src="assets/images/client/client-06.png" />
+                                        <img class="logo-img" alt="Client 6" src="/assets/images/client/client-06.png" />
                                     </div>
                                   </div>
                               </div>
@@ -444,7 +430,7 @@
                         <div class="col">
                             <div class="projects-box projects-style-1">
                                 <div class="projects-thumbnail">
-                                    <img src="assets/images/project/project-01.jpg" class="img-fluid" alt="">
+                                    <img src="/assets/images/project/project-01.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="projects-overlay">
                                     <div class="projects-content">
@@ -464,7 +450,7 @@
                         <div class="col">
                             <div class="projects-box projects-style-1">
                                 <div class="projects-thumbnail">
-                                    <img src="assets/images/project/project-02.jpg" class="img-fluid" alt="">
+                                    <img src="/assets/images/project/project-02.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="projects-overlay">
                                     <div class="projects-content">
@@ -484,7 +470,7 @@
                         <div class="col">
                             <div class="projects-box projects-style-1">
                                 <div class="projects-thumbnail">
-                                    <img src="assets/images/project/project-03.jpg" class="img-fluid" alt="">
+                                    <img src="/assets/images/project/project-03.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="projects-overlay">
                                     <div class="projects-content">
@@ -504,7 +490,7 @@
                         <div class="col">
                             <div class="projects-box projects-style-1">
                                 <div class="projects-thumbnail">
-                                    <img src="assets/images/project/project-04.jpg" class="img-fluid" alt="">
+                                    <img src="/assets/images/project/project-04.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="projects-overlay">
                                     <div class="projects-content">
@@ -524,7 +510,7 @@
                         <div class="col">
                             <div class="projects-box projects-style-1">
                                 <div class="projects-thumbnail">
-                                    <img src="assets/images/project/project-05.jpg" class="img-fluid" alt="">
+                                    <img src="/assets/images/project/project-05.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="projects-overlay">
                                     <div class="projects-content">
@@ -648,7 +634,7 @@
                                         <div class="">
                                             <div class="blog-box blog-style-3 d-flex mb-4">
                                                 <div class="blog-thumbnail">
-                                                    <img src="assets/images/blog/blog-01.jpg " class="img-fluid" alt="">
+                                                    <img src="/assets/images/blog/blog-01.jpg " class="img-fluid" alt="">
                                                 </div>
                                                 <div class="blog-content">
                                                     <div class="blog-entry-meta">
@@ -666,7 +652,7 @@
                                         </div>
                                         <div class="blog-box blog-style-3 d-flex mb-4">
                                             <div class="blog-thumbnail">
-                                                <img src="assets/images/blog/blog-02.jpg " class="img-fluid" alt="">
+                                                <img src="/assets/images/blog/blog-02.jpg " class="img-fluid" alt="">
                                             </div>
                                             <div class="blog-content">
                                                 <div class="blog-entry-meta">
@@ -706,7 +692,7 @@
                                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                                         <div class="card-body">
                                             <div class="d-flex">
-                                                <img class="pr-4" src="assets/images/img-04.jpg" alt="" />
+                                                <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
                                                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
                                             </div>
                                         </div>
@@ -721,7 +707,7 @@
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                         <div class="card-body">
                                             <div class="d-flex">
-                                                <img class="pr-4" src="assets/images/img-04.jpg" alt="" />
+                                                <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
                                                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
                                             </div>
                                         </div>
@@ -736,7 +722,7 @@
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                         <div class="card-body">
                                             <div class="d-flex">
-                                                <img class="pr-4" src="assets/images/img-04.jpg" alt="" />
+                                                <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
                                                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
                                             </div>
                                         </div>
@@ -751,7 +737,7 @@
                                     <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
                                         <div class="card-body">
                                             <div class="d-flex">
-                                                <img class="pr-4" src="assets/images/img-04.jpg" alt="" />
+                                                <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
                                                 <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
                                             </div>
                                         </div>
@@ -777,7 +763,7 @@
     <div class="ts-search-overlay">
         <div class="ts-icon-close"></div>
         <div class="ts-search-outer">
-            <div class="ts-search-logo"><img alt="optico" src="assets/images/logo-white.png" /></div>
+            <div class="ts-search-logo"><img alt="optico" src="/assets/images/logo-white.png" /></div>
             <form class="ts-site-searchform">
                 <input type="search" class="form-control field searchform-s" name="s" placeholder="Type Word Then Press Enter">
                 <button type="submit"><span class="optico-icon-search"></span></button>

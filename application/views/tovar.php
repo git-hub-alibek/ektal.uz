@@ -9,10 +9,10 @@
                                     </div>
                                     <div class="iconbox-contents">
                                         <div class="iconbox-title">
-                                            <h2>Cornea Services</h2>
+                                            <h2><?php echo lang('title1');?></h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Visual acuity test sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                                        <p><?php echo lang('text1');?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -26,10 +26,11 @@
                                     </div>
                                     <div class="iconbox-contents">
                                         <div class="iconbox-title">
-                                            <h2>Glaucoma Services</h2>
+                                            <h2><?php echo lang('title2');?></h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Retinoscopy & Refraction amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                            <p><?php echo lang('text2');?>
+</p>
                                         </div>
                                     </div>
                                 </div>
@@ -43,10 +44,10 @@
                                     </div>
                                     <div class="iconbox-contents">
                                         <div class="iconbox-title">
-                                            <h2>Retina Services</h2>
+                                            <h2><?php echo lang('title3');?> </h2>
                                         </div>
                                         <div class="iconbox-desc">
-                                            <p>Non-contact Tonometer & Tonopen test adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                        <p><?php echo lang('text3');?></p>
                                         </div>
                                     </div>
                                 </div>

@@ -934,7 +934,7 @@ a.play-btn span{
 .single-np-nav .nav-links a {
     font-size: 18px;
     font-weight: 600;
-    color: #031b4e;
+    color: #005267
     position: relative;
     display: inline-block;
 }
@@ -1225,7 +1225,7 @@ a.play-btn span{
     border-bottom: none;
 }
 .blog-single-detail .blog-categories a{
-    background-color: #1A327F;
+    background-color: #005267
     color: #fff;
     font-size: 13px;
     line-height: 24px;
@@ -1315,7 +1315,7 @@ a.play-btn span{
 }
 .entry-np-nav .nav-links .nav-previous a,
 .entry-np-nav .nav-links .nav-next a{
-    background-color: #1A327F;
+    background-color: #005267
     color: #fff;
     padding-left: 48px;
     font-weight: bold;

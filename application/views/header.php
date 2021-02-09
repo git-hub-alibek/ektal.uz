@@ -4,7 +4,7 @@
                     <div class="d-flex justify-content-between  align-items-center">
                         <div class="pre-header-left">
                             <ul class="top-contact">
-                                <li><i class="optico-icon-location-pin"></i>Qoraqalpog'iston Respublikasi, Mo'ynoq tumani, Mo'ynoq shahri, Temur ko'chasi, 26-uy </li>
+                                <li><i class="optico-icon-location-pin"></i><?php echo lang('adress');?></li>
                             </ul>
                         </div>
                         <div class="pre-header-right">
@@ -28,7 +28,7 @@
                             <div class="d-flex justify-content-between  align-items-center">
                                 <div class="site-branding">
                                     <a href="/">
-                                        <img class="logo-img" alt="optico" src="assets/images/ektal.png">
+                                        <img class="logo-img" alt="optico" src="/assets/images/ektal.png">
                                     </a>
                                 </div>
                                 <div class="infostack-right-content">
@@ -40,8 +40,8 @@
                                                 </div>
                                             </div>
                                             <div class="media-right">
-                                                <h6>Email Address</h6>
-                                                <h3>ektal@gmail.com </h3>
+                                                <h6><?php echo lang('email');?></h6>
+                                                <h3>ektal860@mail.ru </h3>
                                             </div>
                                         </div>
                                     </div>
@@ -53,14 +53,14 @@
                                                 </div>
                                             </div>
                                             <div class="media-right">
-                                                <h6>Call us now</h6>
+                                                <h6><?php echo lang('call_us');?></h6>
                                                 <h3>+998944580715 </h3>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="info-widget">
                                         <div class="header-button">
-                                            <a href="#" class="btn btn-outline">APPOINTMENT</a>
+                                            <a href="#" class="btn btn-outline"><?php echo lang('appointment');?></a>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                             <div class="d-flex align-items-center site-header-menu-inner">
                                 <div class="site-branding">
                                     <a href="/">
-                                        <img class="logo-img" alt="optico" src="assets/images/logo-dark.png">
+                                        <img class="logo-img" alt="optico" src="/assets/images/logo-dark.png">
                                     </a>
                                 </div>                               
                                 <div class="site-navigation">
@@ -89,16 +89,16 @@
                                         </div>
                                         <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                             <ul class="navigation clearfix">
-                                                <li class="dropdown "><a href="/">Home</a>
+                                                <li class="dropdown "><a href="/"><?php echo lang('menu_home');?></a>
                                                    
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="#">About</a>
+                                                    <a href="about"><?php echo lang('menu_about');?></a>
                                                    </li>
                                                 <li class="dropdown">
-                                                    <a href="Service.html">Price</a>
+                                                    <a href="price"><?php echo lang('menu_price');?></a>
                                                   </li>
-                                               <li><a href="contact.html">Contact</a></li>
+                                               <li><a href="contact"><?php echo lang('menu_contact');?></a></li>
                                             </ul>
                                         </div>
                                     </nav>
