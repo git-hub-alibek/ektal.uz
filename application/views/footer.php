@@ -61,7 +61,7 @@
                         <h6 class="footer-widget-title"><?php echo lang('menu_contact');?></h6>
                         <div class="d-flex">
                             <i class="optico-icon-location-pin"></i>
-                            <p><strong>OPTICO EYE HOSPITAL</strong>
+                            <p><strong><?php echo lang('title');?></strong>
                                 <br/><?php echo lang('adress');?></p>
                         </div>
                         <div class="d-flex">
