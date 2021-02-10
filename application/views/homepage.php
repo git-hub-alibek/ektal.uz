@@ -178,11 +178,11 @@
                     <div class="row justify-content-center text-center">
                         <div class="col-lg-12">
                             <div class="play-video white-color">
-                                <a href="https://www.youtube.com/watch?v=1fBQHunYvkE" data-rel="prettyPhoto"><i class="themifyicon ti-control-play"></i></a>
+                                <a href="https://youtu.be/8TTGbqDISL0" data-rel="prettyPhoto"><i class="themifyicon ti-control-play"></i></a>
                             </div>
                             <div class="section-title pt-4">
-                                <h4 class="subheading skincolor">WHAT WE OFFER</h4>
-                                <h2 class="white-color">WE OFFERS A COMPLETE<strong> RANGE<br/>OF EYE CARE SERVICES</strong></h2>
+                                
+                                <h2 class="white-color"><strong> <?php echo lang('welcome');?></strong></h2>
                             </div>
                         </div>
                     </div>
@@ -190,129 +190,7 @@
             </section>
             <!-- Action Box end -->
 
-            <!-- Counter -->
-            <section class="who-we-are bg-lightgrey">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-7 col-md-9">
-                            <div class="section-title text-center">
-                                <h4 class="subheading skincolor">WHO WE ARE</h4>
-                                <h2>A GLOBAL LEADER IN<strong> THE <br/>TREATMENT OF EYE DISEASE.</strong></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row pt-5 pb-5 pt-md-0">
-                        <div class="col-md-3">
-                            <div class="counter counter-style-1">
-                                <div class="fld-contents">
-                                    <h4 class="counter-contents"> 
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="168" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">168</span>
-                                    </h4>
-                                    <h6 class="counter-title">
-                                        <span>year of experiencs</span>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="counter counter-style-1">
-                                <div class="fld-contents">
-                                    <h4 class="counter-contents"> 
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="128" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">128</span>
-                                    </h4>
-                                    <h6 class="counter-title">
-                                        <span>awad by GOV</span>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="counter counter-style-1">
-                                <div class="fld-contents">
-                                    <h4 class="counter-contents"> 
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="147" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">147</span>
-                                    </h4>
-                                    <h6 class="counter-title">
-                                        <span>Diffrent Services</span>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="counter counter-style-1">
-                                <div class="fld-contents">
-                                    <h4 class="counter-contents"> 
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="250" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">250</span>
-                                    </h4>
-                                    <h6 class="counter-title">
-                                        <span>In-House Doctors</span>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Counter end -->
-
-            <!-- Before After -->
-            <section class="before-after-sec">
-                <div class="container">
-                    <div class="row skin-bg-color align-items-center">
-                        <div class="col-lg-6 col-md-12 pl-0 pr-md-0 pr-sm-0">
-                            <div class="twentytwenty-container">
-                                <img src="/assets/images/before-after/1.jpg" class="img-fluid w-100" alt="">
-                                <img src="/assets/images/before-after/2.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 pl-4 pr-4 white-color pt-md-30 pb-md-30">
-                            <div class="section-title section-title-white mb-4">
-                                <h4 class="subheading">OUR WORK</h4>
-                                <h2>OUR PATIENT<strong> BEFORE<br/>AFTER GALLERY</strong></h2>
-                            </div>
-                            <div class="pr-4">Clear Eye care services to everyone with adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                            <div class="row">
-                                <div class="col-md-6 before-after">
-                                    <ul class="list">
-                                        <li>
-                                            <i class="fa fa-check"></i>
-                                            <span class="list-content">LASEK CORRECTION</span>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-check"></i>
-                                            <span class="list-content">DROOPING EYELIDS</span>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-check"></i>
-                                            <span class="list-content">EYE TREATMENT</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6 before-after">
-                                    <ul class="list">
-                                        <li>
-                                            <i class="fa fa-check"></i>
-                                            <span class="list-content">EYE BAG REMOVAL</span>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-check"></i>
-                                            <span class="list-content">WHITENING BOTH EYES</span>
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-check"></i>
-                                            <span class="list-content">UPPER EYELIDS SURGERY</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="pt-3">
-                                <a href="#" class="btn btn-outline">View Gallery</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Before After end -->
+            
 
             <!-- Testimonial -->
             <section class="section-mdt">

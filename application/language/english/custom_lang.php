@@ -31,6 +31,7 @@ $lang['send'] = 'Send';
 $lang['copyright'] = 'Designed by:';
 $lang['products'] = 'Our products';
 $lang['useful'] = 'Useful links';
+$lang['welcome'] = 'Welcome to Muynak';
 
 
 
