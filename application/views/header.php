@@ -4,18 +4,18 @@
                     <div class="d-flex justify-content-between  align-items-center">
                         <div class="pre-header-left">
                             <ul class="top-contact">
-                                <li><i class="optico-icon-location-pin"></i>Qoraqalpog'iston Respublikasi, Mo'ynoq tumani, Mo'ynoq shahri, Temur ko'chasi, 26-uy </li>
+                                <li><i class="optico-icon-location-pin"></i><?php echo lang('adress');?></li>
                             </ul>
                         </div>
                         <div class="pre-header-right">
-                            <ul class="top-contact d-inline">
-                                <li><i class="optico-icon-clock"></i>24/7 </li>
-                            </ul>
+                           
                             <ul class="social-icons d-inline">
-                                <li><a target="_blank" href="#" data-tooltip="Facebook"><i class="optico-icon-facebook"></i></a></li>
-                                <li><a target="_blank" href="#" data-tooltip="Twitter"><i class="optico-icon-twitter"></i></a></li>
-                                <li><a target="_blank" href="#" data-tooltip="Flickr"><i class="optico-icon-flickr"></i></a></li>
-                                <li><a target="_blank" href="#" data-tooltip="LinkedIn"><i class="optico-icon-linkedin"></i></a></li>
+                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('kk'), ' <img width="30"  src="/assets/images/kk-flag.png"><b> Каракалпак </b>' ) ;?></a></li>
+                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('uz'), ' <img width="30"  src="/assets/images/uz-flag.png"><b> Ўзбек </b>' ) ;?></a></li>
+                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('en'), ' <img width="30"  src="/assets/images/en-flag.png"><b> English </b>' ) ;?></a> </li>
+                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('isp'), ' <img width="30"  src="/assets/images/isp-flag.png"><b> Ispan </b>' ) ;?></a></li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                             <div class="d-flex justify-content-between  align-items-center">
                                 <div class="site-branding">
                                     <a href="/">
-                                        <img class="logo-img" alt="optico" src="assets/images/ektal.png">
+                                        <img class="logo-img" alt="optico" src="/assets/images/ektal.png">
                                     </a>
                                 </div>
                                 <div class="infostack-right-content">
@@ -40,8 +40,8 @@
                                                 </div>
                                             </div>
                                             <div class="media-right">
-                                                <h6>Email Address</h6>
-                                                <h3>ektal@gmail.com </h3>
+                                                <h6><?php echo lang('email');?></h6>
+                                                <h3>ektal860@mail.ru </h3>
                                             </div>
                                         </div>
                                     </div>
@@ -53,14 +53,14 @@
                                                 </div>
                                             </div>
                                             <div class="media-right">
-                                                <h6>Call us now</h6>
+                                                <h6><?php echo lang('call_us');?></h6>
                                                 <h3>+998944580715 </h3>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="info-widget">
                                         <div class="header-button">
-                                            <a href="#" class="btn btn-outline">APPOINTMENT</a>
+                                            <a href="#" class="btn btn-outline"><?php echo lang('appointment');?></a>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                             <div class="d-flex align-items-center site-header-menu-inner">
                                 <div class="site-branding">
                                     <a href="/">
-                                        <img class="logo-img" alt="optico" src="assets/images/logo-dark.png">
+                                        <img class="logo-img" alt="optico" src="/assets/images/logo-dark.png">
                                     </a>
                                 </div>                               
                                 <div class="site-navigation">
@@ -89,23 +89,21 @@
                                         </div>
                                         <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
                                             <ul class="navigation clearfix">
-                                                <li class="dropdown "><a href="/">Home</a>
+                                                <li class="dropdown "><a href="/"><?php echo lang('menu_home');?></a>
                                                    
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a href="#">About</a>
+                                                    <a href="about"><?php echo lang('menu_about');?></a>
                                                    </li>
                                                 <li class="dropdown">
-                                                    <a href="Service.html">Price</a>
+                                                    <a href="price"><?php echo lang('menu_price');?></a>
                                                   </li>
-                                               <li><a href="contact.html">Contact</a></li>
+                                               <li><a href="contact"><?php echo lang('menu_contact');?></a></li>
                                             </ul>
                                         </div>
                                     </nav>
                                 </div>
-                                <div class="menu-right-box ml-auto">
-                                    <a href="#" class="search-btn"><i class="optico-icon-search-1"></i></a>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>

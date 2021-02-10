@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 mt-md-30 text-lg-right">
-                            <a href="#" class="btn btn-dark">Make an Appointment</a>
+                            <a href="#" class="btn btn-dark"><?php echo lang('appointment');?></a>
                         </div>
                     </div>
                 </div>
@@ -40,58 +40,54 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-sm-30">
-                        <h6 class="footer-widget-title">Usefull Links</h6>
+                        <h6 class="footer-widget-title"><?php echo lang('useful');?></h6>
                         <ul class="list-unstyled footer-link-list">
-                            <li><a href="#">Make Appointments</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Treatments</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Our Doctors</a></li>
-                            <li><a href="#">Before & After</a></li>
+                            <li><a href="#appointment"><?php echo lang('appointment');?></a></li>
+                            <li><a href="about"><?php echo lang('menu_about');?></a></li>
+                            <li><a href="price"><?php echo lang('menu_price');?></a></li>
+                            <li><a href="contact"><?php echo lang('menu_contact');?></a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 mt-md-30">
-                        <h6 class="footer-widget-title">Our Services</h6>
+                        <h6 class="footer-widget-title"><?php echo lang('products');?></h6>
                         <ul class="list-unstyled footer-link-list">
-                            <li><a href="#">Glaucoma Surgery</a></li>
-                            <li><a href="#">Laser Eye Surgery</a></li>
-                            <li><a href="#">Cataract Surgery</a></li>
-                            <li><a href="#">Vision Correction</a></li>
-                            <li><a href="#">Oculoplastic Surgery</a></li>
-                            <li><a href="#">Vitreo Retinal Surgery</a></li>
+                            <li><a href="#"><?php echo lang('title1');?></a></li>
+                            <li><a href="#"><?php echo lang('title2');?></a></li>
+                            <li><a href="#"><?php echo lang('title3');?></a></li>
+                            
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 address-box mt-md-30">
-                        <h6 class="footer-widget-title">Get In Touch</h6>
+                        <h6 class="footer-widget-title"><?php echo lang('menu_contact');?></h6>
                         <div class="d-flex">
                             <i class="optico-icon-location-pin"></i>
-                            <p><strong>OPTICO EYE HOSPITAL</strong>
-                                <br/>Lorance 542B, Tailstoi Town 5248 MT, Wordwide Country</p>
+                            <p><strong><?php echo lang('title');?></strong>
+                                <br/><?php echo lang('adress');?></p>
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-mobile"></i>
-                            <p>(+01) 123 456 7890</p>
+                            <p>+998944580715</p>
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-comment-1"></i>
-                            <p>info@example.com</p>
+                            <p>ektal860@mail.ru</p>
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-clock"></i>
-                            <p>Mon to Sat - 9:00am to 6:00pm</p>
+                            <p>24 / 7</p>
                         </div>
                     </div>
                 </div>
                 <div class="bottom-footer">
                     <div class="row">
                         <div class="col-sm-6">
-                            Copyright © 2021 <a href="/">TexnoPOS</a>. All rights reserved.
+                            <?php echo lang('copyright');?> <a href="http://texnopos.uz">TexnoPOS</a>
                         </div>
                         <div class="col-sm-6 text-lg-right text-md-right text-sm-left">
                             <ul class="list-inline">
-                                <li class="list-inline-item"><a href="#">About Us</a></li>
-                                <li class="list-inline-item"><a href="#">Services</a></li>
-                                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                                <li class="list-inline-item"><a href="about"><?php echo lang('menu_about');?></a></li>
+                                <li class="list-inline-item"><a href="price"><?php echo lang('menu_price');?></a></li>
+                                <li class="list-inline-item"><a href="contact"><?php echo lang('menu_contact');?></a></li>
                             </ul>
                         </div>
                     </div>
