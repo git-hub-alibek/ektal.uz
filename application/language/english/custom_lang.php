@@ -20,6 +20,18 @@ $lang['title3'] = 'EXTRACT FROM ARTEMIA CYSTS';
 $lang['text3'] = '<b>Analytical composition:</b> moisture 2.2%, protein 9.94%, ash 0.57%. <br>
 The total toxicity is negative.<br>
 Shelf life: 5 years.';
+$lang['title'] = 'EKTAL Artemia Cysts';
+$lang['phone'] = 'Phone number:';
+$lang['our_address'] = 'Our address:';
+$lang['contact_text'] = "If you can't make a call, leave a note here";
+$lang['name'] = 'Name';
+$lang['subject'] = 'Subject';
+$lang['message'] = 'Message';
+$lang['send'] = 'Send';
+$lang['copyright'] = 'Designed by:';
+$lang['products'] = 'Our products';
+$lang['useful'] = 'Useful links';
+
 
 
 
