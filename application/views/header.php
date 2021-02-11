@@ -13,7 +13,7 @@
                             <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('kk'), ' <img width="30"  src="/assets/images/kk-flag.png"><b> Каракалпак </b>' ) ;?></a></li>
                             <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('uz'), ' <img width="30"  src="/assets/images/uz-flag.png"><b> Ўзбек </b>' ) ;?></a></li>
                             <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('en'), ' <img width="30"  src="/assets/images/en-flag.png"><b> English </b>' ) ;?></a> </li>
-                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('isp'), ' <img width="30"  src="/assets/images/isp-flag.png"><b> Ispan </b>' ) ;?></a></li>
+                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('es'), ' <img width="30"  src="/assets/images/isp-flag.png"><b> Ispan </b>' ) ;?></a></li>
 
 
                             </ul>
