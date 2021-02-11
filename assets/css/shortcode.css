@@ -409,9 +409,19 @@ INDEX:
 .header-style-3.site-header .site-header-menu { position: relative; z-index: 9; }
 .header-style-3.site-header .site-header-menu.sticky-header { position: fixed; box-shadow: none; z-index: 99; }
 .header-style-3.site-header .site-header-menu-inner { height: 60px; line-height: 60px !important; position: relative; }
-.header-style-3.site-header .site-navigation ul.navigation > li > a { height: 60px; line-height: 60px; padding: 0px 25px 0px 25px; margin: 0; color: #ffffff; }
+.header-style-3.site-header .site-navigation ul.navigation > li > a { height: 60px; line-height: 60px; padding: 0px 25px 0px 25px; margin: 0; color: #ffffff; transition-duration: .25s;}
+.header-style-3.site-header .site-navigation ul.navigation > li:hover { background: #04748c; }
+.header-style-3.site-header .site-navigation ul.navigation > li > a:hover { 
+    color: #fff !important; 
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1), 
+                 0px 18px 23px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1)  
+                 !important; }
+
 .header-style-3 .menu-right-box a { color: #ffffff; }
 .header-style-3 .site-header-menu .site-branding { display: none; }
+
 
 /*----------------------------------------*/
 
