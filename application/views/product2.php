@@ -15,31 +15,31 @@
         ============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <!-- Flaticon -->
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
     <!-- optico Icons -->
-    <link rel="stylesheet" href="css/optico-icons.css">
+    <link rel="stylesheet" href="/assets/css/optico-icons.css">
     <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="/assets/css/themify-icons.css">
     <!-- Slick -->
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
     <!-- Slick Theme -->
-    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="/assets/css/slick-theme.css">
     <!-- Pretty Photo -->
-    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="/assets/css/prettyPhoto.css">
     <!-- Twentytwenty -->
-    <link rel="stylesheet" href="css/twentytwenty.css">
+    <link rel="stylesheet" href="/assets/css/twentytwenty.css">
     <!-- Shortcode CSS -->
-    <link rel="stylesheet" href="css/shortcode.css">
+    <link rel="stylesheet" href="/assets/css/shortcode.css">
     <!-- Base CSS -->
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 
 <body>
@@ -547,29 +547,29 @@
         ============================================ -->
 
     <!-- jQuery JS -->
-    <script src="js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
     <!-- Popper JS -->
-    <script src="js/popper.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <!-- jquery Waypoints JS -->
-    <script src="js/jquery-waypoints.js"></script>
+    <script src="/assets/js/jquery-waypoints.js"></script>
     <!-- jquery Appear JS -->
-    <script src="js/jquery.appear.js"></script>
+    <script src="/assets/js/jquery.appear.js"></script>
     <!-- Numinate JS -->
-    <script src="js/numinate.min.js"></script>
+    <script src="/assets/js/numinate.min.js"></script>
     <!-- Slick JS -->
-    <script src="js/slick.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
     <!-- PrettyPhoto JS -->
-    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="/assets/js/jquery.prettyPhoto.js"></script>
     <!-- Circle Progress JS -->
-    <script src="js/circle-progress.js"></script>
+    <script src="/assets/js/circle-progress.js"></script>
     <!-- Event Move JS -->
-    <script src="js/jquery.event.move.js"></script>
+    <script src="/assets/js/jquery.event.move.js"></script>
     <!-- Twentytwenty JS -->
-    <script src="js/jquery.twentytwenty.js"></script>
+    <script src="/assets/js/jquery.twentytwenty.js"></script>
     <!-- Scripts JS -->
-    <script src="js/scripts.js"></script>
+    <script src="/assets/js/scripts.js"></script>
 </body>
 
 </html>

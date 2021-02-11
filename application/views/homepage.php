@@ -59,7 +59,7 @@
             <!-- banner End -->
 
             <!-- Tovar -->
-            <?php $this->load->view('tovar');?>
+          
             <!-- Tovar -->
 
             <!-- Our Service -->
@@ -86,9 +86,9 @@
                                         </div>
                                         <div class="service-content">
                                             <div class="service-inner">
-                                                <h4 class="service-box-title"><a href="service-detail.html">Surgical Procedures</a></h4>
+                                                <h4 class="service-box-title"><a href="service-detail.html"><?php echo lang('title1');?></a></h4>
                                                 <div class="service-desc">
-                                                    <p>Doctor Timetable Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                                    <p><?php echo lang('text1');?></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -103,9 +103,9 @@
                                         </div>
                                         <div class="service-content">
                                             <div class="service-inner">
-                                                <h4 class="service-box-title"><a href="service-detail.html">Transitions Lenses</a></h4>
+                                                <h4 class="service-box-title"><a href="service-detail.html"><?php echo lang('title2');?></a></h4>
                                                 <div class="service-desc">
-                                                    <p>Doctor Timetable Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                                    <p><?php echo lang('text2');?></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -120,9 +120,9 @@
                                         </div>
                                         <div class="service-content">
                                             <div class="service-inner">
-                                                <h4 class="service-box-title"><a href="service-detail.html">Laser Eye Surgery</a></h4>
+                                                <h4 class="service-box-title"><a href="service-detail.html"><?php echo lang('title3');?></a></h4>
                                                 <div class="service-desc">
-                                                    <p>Doctor Timetable Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                                    <p><?php echo lang('text3');?></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -191,7 +191,7 @@
             <!-- Action Box end -->
 
             
-
+<?php /*
             <!-- Testimonial -->
             <section class="section-mdt">
                 <div class="container">
@@ -268,147 +268,11 @@
                     </div>
                 </div>
             </section>
-            <!-- Restimonial end -->
+            <!-- Restimonial end -->  */?>
 
-            <!-- Client -->
-                <div class="client-style section-md">
-                    <div class="container">
-                        <div class="row">
-                             <div class="col-lg-12">
-                                  <div class="slick-carousel dots-right" data-autoplay="true" data-dots="false" data-arrows="false" data-slides="5" data-tslides="3" data-islides="1">
-                                    <div class="text-center " data-tooltip="Client 1">
-                                        <img class="logo-img" alt="Client 1" src="/assets/images/client/client-01.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 2">
-                                        <img class="logo-img" alt="Client 2" src="/assets/images/client/client-02.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 3">
-                                        <img class="logo-img" alt="Client 3" src="/assets/images/client/client-03.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 4">
-                                        <img class="logo-img" alt="Client 4" src="/assets/images/client/client-04.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 5">
-                                        <img class="logo-img" alt="Client 5" src="/assets/images/client/client-05.png" />
-                                    </div>
-                                     <div class="text-center " data-tooltip="Client 6">
-                                        <img class="logo-img" alt="Client 6" src="/assets/images/client/client-06.png" />
-                                    </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-              </div> 
-            <!-- Client end -->
+            
 
-            <!-- Project -->
-            <section class="project-sec">
-                <div class="container-fluid p-0">
-                    <div class="row no-gutters">
-                        <div class="col">
-                            <div class="projects-box projects-style-1">
-                                <div class="projects-thumbnail">
-                                    <img src="/assets/images/project/project-01.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="projects-overlay">
-                                    <div class="projects-content">
-                                        <div class="projects-box-title">
-                                            <h6><a href="research-detail.html">Paeditaric Ophthalmology</a></h6>
-                                            <div class="box-category">
-                                                <a href="#">Glaucoma Surgery</a>
-                                            </div>
-                                            <div class="project-link">
-                                                <a class="lightbox" title="Massive Deployment Of Solar" href="#"><i class="optico-icon-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="projects-box projects-style-1">
-                                <div class="projects-thumbnail">
-                                    <img src="/assets/images/project/project-02.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="projects-overlay">
-                                    <div class="projects-content">
-                                        <div class="projects-box-title">
-                                            <h6><a href="research-detail.html">Surgical Procedures</a></h6>
-                                            <div class="box-category">
-                                                <a href="#">Eye Treatment, Laser Eye Surgery</a>
-                                            </div>
-                                            <div class="project-link">
-                                                <a class="lightbox" title="Massive Deployment Of Solar" href="#"><i class="optico-icon-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="projects-box projects-style-1">
-                                <div class="projects-thumbnail">
-                                    <img src="/assets/images/project/project-03.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="projects-overlay">
-                                    <div class="projects-content">
-                                        <div class="projects-box-title">
-                                            <h6><a href="research-detail.html">Transitions Lenses</a></h6>
-                                            <div class="box-category">
-                                                <a href="#">Vitreo Retinal Surgery</a>
-                                            </div>
-                                            <div class="project-link">
-                                                <a class="lightbox" title="Massive Deployment Of Solar" href="#"><i class="optico-icon-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="projects-box projects-style-1">
-                                <div class="projects-thumbnail">
-                                    <img src="/assets/images/project/project-04.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="projects-overlay">
-                                    <div class="projects-content">
-                                        <div class="projects-box-title">
-                                            <h6><a href="research-detail.html">Refractive Nature</a></h6>
-                                            <div class="box-category">
-                                                <a href="#">Cataract Surgery</a>
-                                            </div>
-                                            <div class="project-link">
-                                                <a class="lightbox" title="Massive Deployment Of Solar" href="#"><i class="optico-icon-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="projects-box projects-style-1">
-                                <div class="projects-thumbnail">
-                                    <img src="/assets/images/project/project-05.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="projects-overlay">
-                                    <div class="projects-content">
-                                        <div class="projects-box-title">
-                                            <h6><a href="research-detail.html">Letterpress Asymmetrical</a></h6>
-                                            <div class="box-category">
-                                                <a href="#">Cataract Surgery</a>
-                                            </div>
-                                            <div class="project-link">
-                                                <a class="lightbox" title="Massive Deployment Of Solar" href="#"><i class="optico-icon-plus"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Project end -->
+           
 
             <!-- Pricing Table -->
             <section class="skin-bg-color our-pricing-sec">
@@ -497,65 +361,9 @@
             <section class="section-md bg-lightgrey">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="our-blog pr-4 mr-2">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="section-title">
-                                            <h4 class="subheading">RECENT NEWS</h4>
-                                            <h2>WHAT'S GOING ON<strong><br/> IN OUR BLOG?</strong></h2>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="">
-                                            <div class="blog-box blog-style-3 d-flex mb-4">
-                                                <div class="blog-thumbnail">
-                                                    <img src="/assets/images/blog/blog-01.jpg " class="img-fluid" alt="">
-                                                </div>
-                                                <div class="blog-content">
-                                                    <div class="blog-entry-meta">
-                                                        <ul class="list-inline">
-                                                            <li class="blog-category"><a class="url fn n" href="#">Paediatric</a></li>
-                                                            <li class="blog-date"><i class="optico-icon-clock"></i><a href="#">February 18, 2018</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <h4 class="blog-box-title"><a href="blog-detail.html">That’s why it is so important to see an ophthalmologist</a></h4>
-                                                    <div class="blog-desc">
-                                                        <p>Eyecare Sed ut perspiciatis unde omnis iste natus error doloremque laudantium.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="blog-box blog-style-3 d-flex mb-4">
-                                            <div class="blog-thumbnail">
-                                                <img src="/assets/images/blog/blog-02.jpg " class="img-fluid" alt="">
-                                            </div>
-                                            <div class="blog-content">
-                                                <div class="blog-entry-meta">
-                                                    <ul class="list-inline">
-                                                        <li class="blog-category"><a class="url fn n" href="#">Glaucoma</a></li>
-                                                        <li class="blog-date"><i class="optico-icon-clock"></i><a href="#">January 21, 2018</a></li>
-                                                    </ul>
-                                                </div>
-                                                <h4 class="blog-box-title"><a href="blog-detail.html">Signs or risk factors for eye disease</a></h4>
-                                                <div class="blog-desc">
-                                                    <p>Eyecare Sed ut perspiciatis unde omnis iste natus error doloremque laudantium.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="link-btn">
-                                            <a class="skincolor" href="#">SEE ALL OUR BLOGS<i class="fa fa-arrow-circle-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="section-title">
+                        
+                        <div class="col-lg-12">
+                            <div class="section-title text-center">
                                 <h4 class="subheading skincolor">FREQUENTLY ASKED QUESTIONS</h4>
                                 <h2>FEEL FREE FOR<br/><strong> ANY FAQS</strong></h2>
                             </div>
@@ -606,21 +414,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingfour">
-                                        <h5 class="mb-0">
-                                            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">How is a cataract removed?</a>
-                                          </h5>
-                                    </div>
-                                    <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
-                                        <div class="card-body">
-                                            <div class="d-flex">
-                                                <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
-                                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

@@ -129,7 +129,7 @@
                         </div>
                     </div>
                     <!-- appointment -->
-                     <div class="row  box-shadow-02 bg-white contact-appointment">
+                     <div class="row  box-shadow-02 bg-white contact-appointment pb-5">
                         <div class="col-lg-4 appointment-image">
                         </div>
                         <div class="col-lg-8 appointment-inner">
@@ -171,8 +171,8 @@
                 <div class="map-box overflow-hidden">
                     <div class="container-fluid p-0">
                         <div class="row no-gutters">
-                            <div class="col-md-12">
-                                <div class="contact-map">
+                            <div class="col-md-12"> <br><br><br><br><br>
+                                <div class="contact-map pt-5">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.7009711379696!2d59.02789313160996!3d43.75830605429949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDQ1JzMyLjAiTiA1OcKwMDEnNDMuOSJF!5e0!3m2!1sru!2s!4v1612959056906!5m2!1sru!2s"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
