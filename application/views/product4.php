@@ -15,31 +15,31 @@
         ============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <!-- Flaticon -->
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="/assets/css/flaticon.css">
     <!-- optico Icons -->
-    <link rel="stylesheet" href="css/optico-icons.css">
+    <link rel="stylesheet" href="/assets/css/optico-icons.css">
     <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="/assets/css/themify-icons.css">
     <!-- Slick -->
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
     <!-- Slick Theme -->
-    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="/assets/css/slick-theme.css">
     <!-- Pretty Photo -->
-    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="/assets/css/prettyPhoto.css">
     <!-- Twentytwenty -->
-    <link rel="stylesheet" href="css/twentytwenty.css">
+    <link rel="stylesheet" href="/assets/css/twentytwenty.css">
     <!-- Shortcode CSS -->
-    <link rel="stylesheet" href="css/shortcode.css">
+    <link rel="stylesheet" href="/assets/css/shortcode.css">
     <!-- Base CSS -->
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
     <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 
 <body>
