@@ -36,7 +36,7 @@ foreach($css_files as $file): ?>
 				<a class="btn btn-danger" href='<?php echo site_url('admin/services');?>'><ion-icon name="grid"></ion-icon> Хизметлер</a> |
 				<a class="btn btn-info" href='<?php echo site_url('admin/appointments');?>'><ion-icon name="grid"></ion-icon> Қабыллаўлар</a> | -->
 				<a class="btn btn-info" href='<?php echo site_url('auth/index');?>'><ion-icon name="people"></ion-icon> Пользоваиели </a> | 
-				<a class="btn btn-secondary" href='<?php echo site_url('auth/logout');?>'><ion-icon name="exit"></ion-icon> Выход</a>
+				<a class="btn btn-danger" href='<?php echo site_url('auth/logout');?>'><ion-icon name="exit"></ion-icon> Выход</a>
 			</div>		
 		</div>
 	</div>

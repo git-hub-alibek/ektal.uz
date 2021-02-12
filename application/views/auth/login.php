@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/assets/css/dropdown.css">
 </head>
 <body>
-    <a class="btn btn-success" href='<?php echo site_url('/')?>' style="margin: 15px 15px 0px 15px; "><ion-icon name="home"></ion-icon>Бас бет</a>
+    <a class="btn btn-success" href='<?php echo site_url('/')?>' style="margin: 15px 15px 0px 15px; "><ion-icon name="home"></ion-icon>Главная</a>
     <div class="container">
     
           <div class="row justify-content-center" style="margin-top: 60px;">

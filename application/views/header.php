@@ -10,10 +10,10 @@
                         <div class="pre-header-right">
                            
                             <ul class="social-icons d-inline">
-                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('kk'), ' <img width="30"  src="/assets/images/kk-flag.png"><b> Каракалпак </b>' ) ;?></a></li>
+                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('kk'), ' <img width="30"  src="/assets/images/kk-flag.png"><b> Қарақалпақша </b>' ) ;?></a></li>
                             <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('uz'), ' <img width="30"  src="/assets/images/uz-flag.png"><b> Ўзбек </b>' ) ;?></a></li>
                             <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('en'), ' <img width="30"  src="/assets/images/en-flag.png"><b> English </b>' ) ;?></a> </li>
-                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('es'), ' <img width="30"  src="/assets/images/isp-flag.png"><b> Ispan </b>' ) ;?></a></li>
+                            <li><a class="scroll-top logo  animated bounceInLeft"><?php echo anchor($this->lang->switch_uri('es'), ' <img width="30"  src="/assets/images/isp-flag.png"><b> Español </b>' ) ;?></a></li>
 
 
                             </ul>
@@ -27,7 +27,7 @@
                         <div class="col-md-12">
                             <div class="d-flex justify-content-between  align-items-center">
                                 <div class="site-branding">
-                                    <a href="/">
+                                    <a href="<?php echo site_url(); ?>">
                                         <img class="logo-img" alt="optico" src="/assets/images/ektal.png">
                                     </a>
                                 </div>

@@ -72,13 +72,15 @@ class Admin extends CI_Controller {
 	public function products()
 	{
 		$crud=new grocery_CRUD();
-		$crud->columns('id', 'img', 'name_kk', 'name_uz', 'name_en', 'name_es', 
+		$crud->columns('id', 'img', 'price',
+					   'name_kk', 'name_uz', 'name_en', 'name_es', 
 					   'info_short_kk', 'info_long_kk', 
 					   'info_short_uz', 'info_long_uz',
 					   'info_short_en', 'info_long_en', 
 					   'info_short_es', 'info_long_es');
 		$crud->display_as('id','#');
 		$crud->display_as('img','Изображение');
+		$crud->display_as('price','Цена');
 		$crud->display_as('name_kk','Название на каракал.');
 		$crud->display_as('name_en','Название на англ.');
 		$crud->display_as('name_es','Название исп.');
