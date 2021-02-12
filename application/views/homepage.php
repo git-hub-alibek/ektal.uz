@@ -62,16 +62,27 @@
           
             <!-- Tovar -->
 
-            <!-- Our Service -->
-            <section class="section-md bg-padding">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-7 col-md-9">
-                            <div class="section-title text-center">
-                                
-                                <h2><strong><?php echo lang('our_products');?></strong></h2>
-                                
-                            </div>
+<!-- Our Service -->
+<section class="section-md bg-padding">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-7 col-md-9">
+            <div class="section-title text-center">
+                <h4 class="subheading skincolor">BEST VISION</h4>
+                <h2>GIVE BEST CARE FOR YOUR EYES <strong>OUR EYE SERVICES</strong></h2>
+                <p class="lead">Expert eyecare, latest eyewear consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Services 01 -->
+        <div class="col-lg-12">
+            <div class="slick-carousel brd-right no-mrg" data-autoplay="true" data-dots="false" data-arrows="false" data-slides="3" data-tslides="2" data-islides="2">
+                <?php foreach($products as $product): ?>
+                <div>
+                    <div class="service-box service-style-2">
+                        <div class="service-thumbnail">
+                            <a href="<?php echo site_url('product/show/'.$product['id']); ?>"><img src="/uploads/<?php echo $product['img']; ?>" class="img-fluid" alt=""></a>
                         </div>
                         <div class="service-content">
                             <div class="service-inner">
