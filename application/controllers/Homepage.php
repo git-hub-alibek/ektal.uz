@@ -20,8 +20,7 @@ class Homepage extends CI_Controller {
 	 */
 	public function index()
 	{
-		if($this->uri->segment(1) == 'kk')
-			$this->data['products'] = $this->db->get('products')->result_array();
+		$this->data['products'] = $this->db->get('products')->result_array();
 
 		$this->load->view('homepage', $this->data);
 	}

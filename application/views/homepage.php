@@ -78,17 +78,15 @@
         <!-- Services 01 -->
         <div class="col-lg-12">
             <div class="slick-carousel brd-right no-mrg" data-autoplay="true" data-dots="false" data-arrows="false" data-slides="3" data-tslides="2" data-islides="2">
-
                 <?php foreach($products as $product): ?>
-                <!-- slide-1 -->
                 <div>
                     <div class="service-box service-style-2">
                         <div class="service-thumbnail">
-                            <img src="/assets/images/services/service-01.jpg" class="img-fluid" alt="">
+                            <a href="<?php echo site_url('product/show/'.$product['id']); ?>"><img src="/uploads/<?php echo $product['img']; ?>" class="img-fluid" alt=""></a>
                         </div>
                         <div class="service-content">
                             <div class="service-inner">
-                                <h4 class="service-box-title"><a href="service-detail.html"><?php echo lang('title1');?></a></h4>
+                                <h4 class="service-box-title"><a href="<?php echo site_url('product/show/'.$product['id']); ?>"><?php echo $product['name_'.$this->uri->segment(1)]; ?></a></h4>
                                 <div class="service-desc">
                                     <p><?php echo $product['info_short_'.$this->uri->segment(1)]; ?></p>
                                 </div>
@@ -97,15 +95,10 @@
                     </div>
                 </div>
                 <?php endforeach; ?>
-                <!-- slide-2 -->
-                <div>
-
-               
-            
             </div>
         </div>
     </div>
-    </div>
+</div>
 </section>
 <!-- Our Service end -->
 

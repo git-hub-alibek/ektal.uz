@@ -6,9 +6,15 @@ class Product extends CI_Controller {
 	
 	public function index()
 	{
-		
-		$this->load->view('product');
-	}
+		$this->data['products'] = $this->db->get('products')->result_array();
 
+		$this->load->view('homepage', $this->data);		
+	}
+	public function show($id = false)
+	{
+		$this->data['product'] = $this->db->where('id', intval($id))->get('products')->result_array();
+
+		$this->load->view('product', $this->data);		
+	}
 
 }

@@ -56,29 +56,26 @@
 
            
 
-            <!-- Blog -->
-            <section class="section-smt">
-                <div class="container">
-                   
-                            <div class="row">
-                                <!-- Blog 01 -->
-                                <div class="col-md-12">
-                                    <div class="blog-box blog-style-1 blog-single-detail">
-                                        <div class="blog-thumbnail mb-4">
-                                          <p align='center'>   <img width='600' src="/assets/images/services/service-03.jpg" class="img-fluid" /> </p>
-                                        </div>
-                                       
-                                        <h3 class="blog-box-title"><a href="blog-detail.html">That’s why it is so important to see an ophthalmologist</a></h3>
-                                        <p>If you have ever been interested in the way that your eyes. Suspendisse potenti. Fusce libero velit, tristique eu mauris vitae, convallis facilisis sapien. Mauris urna diam, fringilla sit amet eleifend id, commodo ac lorem. Curabitur at erat justo. Curabitur dapibus hendrerit dui, vel sagittis lectus laoreet et. Cras vitae purus dictum, fringilla urna sit amet, elementum leo. Etiam blandit enim eu arcu blandit sagittis. Aliquam ligula mi, luctus ut est non.</p>
-                                        
-                               
-
-                      
+<!-- Blog -->
+<section class="section-smt">
+    <div class="container">
+        <div class="row">
+            <!-- Blog 01 -->
+            <div class="col-md-12">
+                <div class="blog-box blog-style-1 blog-single-detail">
+                    <div class="blog-thumbnail mb-4">
+                      <p align='center'>   <img width='600' src="<?php echo site_url('uploads/'.$product[0]['img']); ?>" class="img-fluid" /> </p>
                     </div>
+                   
+                    <h3 class="blog-box-title text-center"><a href="blog-detail.html"><?php echo $product[0]['name_'.$this->uri->segment(1)]; ?></a></h3>
+                    <p><?php echo $product[0]['info_long_'.$this->uri->segment(1)]; ?></p>
                 </div>
-            </section>
-            <!-- Blog End -->
+            </div>
         </div>
+    </div>
+</section>
+<!-- Blog End -->
+        
         <!-- page content End -->
 
         <!-- footer -->
