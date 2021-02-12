@@ -34,6 +34,7 @@ $lang['copyright'] = 'Сайт ислеген:';
 $lang['products'] = 'Бизиң өнимлер';
 $lang['useful'] = 'Пайдалы силтемелер';
 $lang['welcome'] = 'Мойнаққа хош келипсиз';
+$lang['our_products'] = 'Бизиң өнимлер';
 
 
 

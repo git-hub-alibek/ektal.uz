@@ -62,27 +62,16 @@
           
             <!-- Tovar -->
 
-<!-- Our Service -->
-<section class="section-md bg-padding">
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-lg-7 col-md-9">
-            <div class="section-title text-center">
-                <h4 class="subheading skincolor">BEST VISION</h4>
-                <h2>GIVE BEST CARE FOR YOUR EYES <strong>OUR EYE SERVICES</strong></h2>
-                <p class="lead">Expert eyecare, latest eyewear consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <!-- Services 01 -->
-        <div class="col-lg-12">
-            <div class="slick-carousel brd-right no-mrg" data-autoplay="true" data-dots="false" data-arrows="false" data-slides="3" data-tslides="2" data-islides="2">
-                <?php foreach($products as $product): ?>
-                <div>
-                    <div class="service-box service-style-2">
-                        <div class="service-thumbnail">
-                            <a href="<?php echo site_url('product/show/'.$product['id']); ?>"><img src="/uploads/<?php echo $product['img']; ?>" class="img-fluid" alt=""></a>
+            <!-- Our Service -->
+            <section class="section-md bg-padding">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7 col-md-9">
+                            <div class="section-title text-center">
+                                
+                                <h2><strong><?php echo lang('our_products');?></strong></h2>
+                                
+                            </div>
                         </div>
                         <div class="service-content">
                             <div class="service-inner">
@@ -238,88 +227,7 @@
 
            
 
-            <!-- Pricing Table -->
-            <section class="skin-bg-color our-pricing-sec">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-7 col-md-9">
-                            <div class="section-title white-color text-center">
-                                <h4 class="subheading">OUR PRICING</h4>
-                                <h2>YOUR HEALTH IS MOST<strong><br/> IMPORTANT WITH GREAT PRICES</strong></h2>
-                                <p>Clear Eye care services to everyone with adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="pricing-table-sec bg-lightgrey">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="pricing-tablebox">
-                                <div class="pricingtable-main">
-                                    <div class="pricingtable-icon medium-icon">
-                                        <i class="flaticon-icon flaticon-eye"></i>
-                                    </div>
-                                    <h3 class="pricingtable-title">Eye Treatment</h3>
-                                    <div class="pricingtable-desc">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                    </div>
-                                    <div class="pricingtable-pricebox">
-                                        <div class="pricingtable-price">15%</div>
-                                        <h4 class="pricingtable-discount">Discount</h4>
-                                    </div>
-                                </div>
-                                <div class="pricingtable-btn">
-                                    <a href="#" class="btn">GET OFFER</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="pricing-tablebox">
-                                <div class="pricingtable-main">
-                                    <div class="pricingtable-icon medium-icon">
-                                        <i class="flaticon-icon flaticon-eye-2"></i>
-                                    </div>
-                                    <h3 class="pricingtable-title">Cornea Services</h3>
-                                    <div class="pricingtable-desc">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                    </div>
-                                    <div class="pricingtable-pricebox">
-                                        <div class="pricingtable-price">25%</div>
-                                        <h4 class="pricingtable-discount">Discount</h4>
-                                    </div>
-                                </div>
-                                <div class="pricingtable-btn">
-                                    <a href="#" class="btn">GET OFFER</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="pricing-tablebox">
-                                <div class="pricingtable-main">
-                                    <div class="pricingtable-icon medium-icon">
-                                        <i class="flaticon-icon flaticon-contact-lens-4"></i>
-                                    </div>
-                                    <h3 class="pricingtable-title">Contact Lens</h3>
-                                    <div class="pricingtable-desc">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                    </div>
-                                    <div class="pricingtable-pricebox">
-                                        <div class="pricingtable-price">18%</div>
-                                        <h4 class="pricingtable-discount">Discount</h4>
-                                    </div>
-                                </div>
-                                <div class="pricingtable-btn">
-                                    <a href="#" class="btn">GET OFFER</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Pricing Table end -->
+           
 
             <!-- Post & Testimonial -->
             <section class="section-md bg-lightgrey">

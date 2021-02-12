@@ -32,6 +32,8 @@ $lang['copyright'] = 'Diseñada por:';
 $lang['products'] = 'Nuestros productos';
 $lang['useful'] = 'Enlaces útiles';
 $lang['welcome'] = 'Bienvenido a Muynak';
+$lang['our_products'] = 'Nuestros productos';
+
 
 
 
