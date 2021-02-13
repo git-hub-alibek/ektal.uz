@@ -343,7 +343,8 @@ a.play-btn span{
 }
 .appointment-image{
     background-image: url(../images/img-02.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     padding-left: 0px;
 }

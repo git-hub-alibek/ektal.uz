@@ -133,32 +133,32 @@
                         <div class="col-lg-4 appointment-image">
                         </div>
                         <div class="col-lg-8 appointment-inner">
-                            <h4><?php echo lang('contact_text');?></h4>
-                           
-                            <div class="contact-form">
-                                <form>
-                                    <div class="form-row">
-                                        <div class="form-group col-lg-6">
-                                            <input id="name" type="text" class="form-control" placeholder="<?php echo lang('name');?>" name="Your-Name">
-                                        </div>
-                                        <div class="form-group col-lg-6">
-                                            <input id="email" class="form-control" placeholder="<?php echo lang('email');?>" name="email" type="email" value="" aria-required="true">
-                                        </div>
-                                        <div class="form-group col-lg-6">
-                                            <input id="phone" type="text" class="form-control" placeholder="<?php echo lang('phone');?>" name="your-phone">
-                                        </div>
-                                        <div class="form-group col-lg-6">
-                                            <input id="subject" type="text" class="form-control" placeholder="<?php echo lang('subject');?>" name="subject">
-                                        </div>
-                                        <div class="form-group col-lg-12">
-                                            <textarea id="comment" class="form-control" placeholder="<?php echo lang('message');?>" name="message" cols="45" rows="5" aria-required="true"></textarea>
-                                        </div>
-                                        <div class="form-group col-lg-12">
-                                            <a href="#" class="btn"><?php echo lang('send');?></a>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                            
+<h4><?php echo lang('contact_text');?></h4>
+<div class="contact-form">
+    <form action="<?php echo site_url('contact/send'); ?>">
+        <div class="form-row">
+            <div class="form-group col-lg-6">
+                <input id="name" type="text" class="form-control" placeholder="<?php echo lang('name');?>" name="Your-Name" autocomplete="off" required>
+            </div>
+            <div class="form-group col-lg-6">
+                <input id="email" class="form-control" placeholder="<?php echo lang('email');?>" name="email" type="email" value="" aria-required="true" required>
+            </div>
+<!--             <div class="form-group col-lg-6">
+                <input id="phone" type="text" class="form-control" placeholder="<?php echo lang('phone');?>" name="your-phone">
+            </div> -->
+            <div class="form-group col-lg-12">
+                <input id="subject" type="text" class="form-control" placeholder="<?php echo lang('subject');?>" name="subject" autocomplete="off" required>
+            </div>
+            <div class="form-group col-lg-12">
+                <textarea id="comment" class="form-control" placeholder="<?php echo lang('message');?>" name="message" cols="45" rows="5" aria-required="true" required></textarea>
+            </div>
+            <div class="form-group col-lg-12 text-center">
+                <button type="submit" class="btn"><?php echo lang('send');?></button>
+            </div>
+        </div>
+    </form>
+</div>
                         </div>
                     </div>
                     <!-- appointment end -->

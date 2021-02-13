@@ -8,4 +8,11 @@ class Contact extends CI_Controller {
 	{
 		$this->load->view('contact');
 	}
+
+	public function send()
+	{
+		$this->data['products'] = $this->db->get('products')->result_array();
+
+		$this->load->view('homepage', $this->data);		
+	}
 }

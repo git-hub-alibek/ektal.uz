@@ -12,9 +12,12 @@ class Product extends CI_Controller {
 	}
 	public function show($id = false)
 	{
-		$this->data['product'] = $this->db->where('id', intval($id))->get('products')->result_array();
-
-		$this->load->view('product', $this->data);		
+		if($id)
+			$this->data['product'] = $this->db->where('id', intval($id))->get('products')->result_array();
+		else
+			$this->data['product'] = $this->db->get('products')->result_array();
+		
+			$this->load->view('product', $this->data);		
 	}
 
 }
