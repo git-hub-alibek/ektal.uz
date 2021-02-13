@@ -1,5 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['main_title'] = "EKTAL - artemia cysts";
+// Homepage Header
+$lang['registration'] = 'Sign up';
 $lang['menu_home'] = 'Homepage';
 $lang['menu_about'] = 'About';
 $lang['menu_contact'] = 'Contact';

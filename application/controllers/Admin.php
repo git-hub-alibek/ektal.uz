@@ -99,12 +99,22 @@ class Admin extends CI_Controller {
 		$output=$crud->render();
 		$this->_example_output($output);
 	}
-	public function spec()
+	public function faq()
 	{
 		$crud = new grocery_CRUD();
-		$crud->columns('id', 'title');
+		$crud->columns('id', 'question_kk', 'answer_kk',
+							 'question_uz', 'answer_uz',
+							 'question_en', 'answer_en',
+							 'question_es', 'answer_es');
 		$crud->display_as('id', '#');
-		$crud->display_as('title', 'Қәнигелик аты');
+		$crud->display_as('question_kk', 'Вопрос на каракал.');
+		$crud->display_as('answer_kk', 'Ответ на каракал.');
+		$crud->display_as('question_uz', 'Вопрос на узб.');
+		$crud->display_as('answer_uz', 'Ответ на узб.');
+		$crud->display_as('question_en', 'Вопрос на англ.');
+		$crud->display_as('answer_en', 'Ответ на англ.');
+		$crud->display_as('question_es', 'Вопрос на исп.');
+		$crud->display_as('answer_es', 'Ответ на исп.');
 		$output = $crud->render();
 		$this->_example_output($output);
 	}

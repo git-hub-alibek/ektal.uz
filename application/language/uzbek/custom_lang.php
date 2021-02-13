@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['main_title'] = "EKTAL - Артемия кисталари";
 // Homepage Header
-$lang['registration'] = 'Дизимнен ўтиш';
+$lang['registration'] = 'Руйхатдан утиш';
 $lang['menu_home'] = 'Бош саҳифа';
 $lang['menu_about'] = 'Биз ҳақимизда';
 $lang['menu_price'] = 'Баҳолар';

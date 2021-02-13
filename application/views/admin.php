@@ -29,10 +29,10 @@ foreach($css_files as $file): ?>
 	<div class="container" style="padding: 10px 50px 10px 50px; border: 1px solid rgba(0, 0, 0, 0.1); background-color: lightgrey;">
 		<div class="row">
 			<div class="col-12">
-				<a class="btn btn-success" href='<?php echo site_url('');?>'><ion-icon name="home"></ion-icon> Главная</a> |
+				<a class="btn btn-success" href='<?php echo site_url();?>'><ion-icon name="home"></ion-icon> Главная</a> |
 				<a class="btn btn-primary" href='<?php echo site_url('admin/products');?>'><ion-icon name="newspaper"></ion-icon> Продукты</a> |
-<!-- 				<a class="btn btn-primary" href='<?php echo site_url('admin/feedback');?>'><ion-icon name="newspaper"></ion-icon> Кери Байланыс</a> |
-				<a class="btn btn-danger" href='<?php echo site_url('admin/departments');?>'><ion-icon name="grid"></ion-icon> Бөлимлер</a> |
+	 			<a class="btn btn-warning" href='<?php echo site_url('admin/faq');?>'><ion-icon name="newspaper"></ion-icon> FAQ</a> |
+				<!--<a class="btn btn-danger" href='<?php echo site_url('admin/departments');?>'><ion-icon name="grid"></ion-icon> Бөлимлер</a> |
 				<a class="btn btn-danger" href='<?php echo site_url('admin/services');?>'><ion-icon name="grid"></ion-icon> Хизметлер</a> |
 				<a class="btn btn-info" href='<?php echo site_url('admin/appointments');?>'><ion-icon name="grid"></ion-icon> Қабыллаўлар</a> | -->
 				<a class="btn btn-info" href='<?php echo site_url('auth/index');?>'><ion-icon name="people"></ion-icon> Пользоваиели </a> | 

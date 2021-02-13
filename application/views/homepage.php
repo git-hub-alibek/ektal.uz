@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ektal Artemie Cysts</title>
+    <title><?php echo lang('main_title'); ?></title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -102,57 +102,25 @@
 </section>
 <!-- Our Service end -->
 
-            <!-- Our Expert -->
-            <section class="skin-bg-color white-color expert-eye">
-                <div class="container">
-                    <div class="row expert-service align-items-lg-center align-items-md-end">
-                        <div class="col-md-12 col-lg-6">
-                            <img src="/assets/images/img-03.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="col-md-12 col-lg-6 pr-4 pr-md-0 mb-lg-40 mt-md-50">
-                            <div class="section-title section-title-white">
-                                <h4 class="subheading">OUR EXPERTS</h4>
-                                <h2>WE ARE SERVING<strong> EXPERT <br/>EYE SPECIALISTS</strong></h2>
-                                <p class="pt-3">Better vision for a great life consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            </div>
-                            <div class="skill skill-medium text-white">
-                                <div class="skill-bar" data-percent="90" data-delay="0" data-type="%">
-                                    <div class="skill-title">REFRACTIVE SURGERY</div>
-                                </div>
-                            </div>
-                            <div class="skill skill-medium text-white">
-                                <div class="skill-bar" data-percent="80" data-delay="0" data-type="%">
-                                    <div class="skill-title">CATARACT SURGERY</div>
-                                </div>
-                            </div>
-                            <div class="skill skill-medium text-white">
-                                <div class="skill-bar" data-percent="70" data-delay="0" data-type="%">
-                                    <div class="skill-title">GLAUCOMA</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Our Expert end -->
 
-            <!-- Action Box -->
-            <section class="section-md offer-service">
-                <div class="container">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-lg-12">
-                            <div class="play-video white-color">
-                                <a href="https://youtu.be/8TTGbqDISL0" data-rel="prettyPhoto"><i class="themifyicon ti-control-play"></i></a>
-                            </div>
-                            <div class="section-title pt-4">
-                                
-                                <h2 class="white-color"><strong> <?php echo lang('welcome');?></strong></h2>
-                            </div>
-                        </div>
-                    </div>
+
+<!-- Action Box -->
+<section class="section-md offer-service">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-12">
+                <div class="play-video white-color">
+                    <a href="https://youtu.be/8TTGbqDISL0" data-rel="prettyPhoto"><i class="themifyicon ti-control-play"></i></a>
                 </div>
-            </section>
-            <!-- Action Box end -->
+                <div class="section-title pt-4">
+                    
+                    <h2 class="white-color"><strong> <?php echo lang('welcome');?></strong></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Action Box end -->
 
             
 <?php /*

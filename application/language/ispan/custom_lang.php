@@ -1,5 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['main_title'] = "EKTAL - quistes de artemia";
+// Homepage Header
+$lang['registration'] = 'Inscribirse';
 $lang['menu_home'] = 'Página principal';
 $lang['menu_about'] = 'Acerca de';
 $lang['menu_contact'] = 'Contact';
