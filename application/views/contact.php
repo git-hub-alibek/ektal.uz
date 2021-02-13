@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/assets/images/gold.png" type="image/x-icon">
     <title><?php echo lang('title');?></title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
@@ -207,29 +208,29 @@
         ============================================ -->
 
     <!-- jQuery /assets/js -->
-    <script src="/assets/js/jquery.min./assets/js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
     <!-- Popper /assets/js -->
-    <script src="/assets/js/popper.min./assets/js"></script>
+    <script src="/assets/js/popper.min.js"></script>
     <!-- Bootstrap /assets/js -->
-    <script src="/assets/js/bootstrap.min./assets/js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <!-- jquery Waypoints /assets/js -->
-    <script src="/assets/js/jquery-waypoints./assets/js"></script>
+    <script src="/assets/js/jquery-waypoints.js"></script>
     <!-- jquery Appear /assets/js -->
-    <script src="/assets/js/jquery.appear./assets/js"></script>
+    <script src="/assets/js/jquery.appear.js"></script>
     <!-- Numinate /assets/js -->
-    <script src="/assets/js/numinate.min./assets/js"></script>
+    <script src="/assets/js/numinate.min.js"></script>
     <!-- Slick.min /assets/js -->
-    <script src="/assets/js/slick.min./assets/js"></script>
+    <script src="/assets/js/slick.min.js"></script>
     <!-- Slick.min /assets/js -->
-    <script src="/assets/js/jquery.prettyPhoto./assets/js"></script>
+    <script src="/assets/js/jquery.prettyPhoto.js"></script>
     <!-- Circle Progress /assets/js -->
-    <script src="/assets/js/circle-progress./assets/js"></script>
+    <script src="/assets/js/circle-progress.js"></script>
     <!-- Event Move /assets/js -->
-    <script src="/assets/js/jquery.event.move./assets/js"></script>
+    <script src="/assets/js/jquery.event.move.js"></script>
     <!-- Twentytwenty /assets/js -->
-    <script src="/assets/js/jquery.twentytwenty./assets/js"></script>
+    <script src="/assets/js/jquery.twentytwenty.js"></script>
     <!-- Scripts /assets/js -->
-    <script src="/assets/js/scripts./assets/js"></script>
+    <script src="/assets/js/scripts.js"></script>
 </body>
 
 </html>

@@ -10,7 +10,7 @@
                                     </div>
                                     <div class="iconbox-contents">
                                         <div class="iconbox-title">
-                                            <h2>If you Have Any Questions Schedule an Appointment <strong>With Our Doctor OR Call Us On (010)123-456-7890</strong>
+                                            <h2><?php echo lang('question');?> <strong><?php echo lang('number');?></strong>
                                             </h2>
                                         </div>
                                     </div>
@@ -18,7 +18,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 mt-md-30 text-lg-right">
-                            <a href="#" class="btn btn-dark"><?php echo lang('appointment');?></a>
+                            <a href="#" class="btn btn-dark"><?php echo lang('call');?></a>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         <div class="footerlogo mb-4">
                             <img class="" src="assets/images/ektal.png" alt="">
                         </div>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor asin cididunt ut labore et dolore magna ali qua. Lorem ipsum dolor sit amet.</p>
+                        <p class="mb-0">EKTAL ARTEMIA CYSTS</p>
                         <div class="social-links-wrapper">
                             <ul class="social-icons">
                                 <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -81,7 +81,7 @@
                 <div class="bottom-footer">
                     <div class="row">
                         <div class="col-sm-6">
-                            <?php echo lang('copyright');?> <a href="http://texnopos.uz">TexnoPOS</a>
+                            <?php echo lang('copyright');?> <a href="https://t.me/nukusweb">NukusWeb</a>
                         </div>
                         <div class="col-sm-6 text-lg-right text-md-right text-sm-left">
                             <ul class="list-inline">

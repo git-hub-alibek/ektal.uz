@@ -1,3 +1,4 @@
+
 <header class="site-header header-style-3">
             <div class="pre-header">
                 <div class="container">
@@ -41,7 +42,7 @@
                                             </div>
                                             <div class="media-right">
                                                 <h6><?php echo lang('email');?></h6>
-                                                <h3>ektal860@mail.ru </h3>
+                                                <h3>ektal.company@gmail.com </h3>
                                             </div>
                                         </div>
                                     </div>
@@ -60,7 +61,7 @@
                                     </div>
                                     <div class="info-widget">
                                         <div class="header-button">
-                                            <a href="#" class="btn btn-outline"><?php echo lang('appointment');?></a>
+                                            <a href="tel:+998944580715" class="btn btn-outline"><?php echo lang('call');?></a>
                                         </div>
                                     </div>
                                 </div>

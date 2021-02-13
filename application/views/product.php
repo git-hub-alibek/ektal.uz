@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/assets/images/gold.png" type="image/x-icon">
     <title><?php echo lang('title');?></title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">

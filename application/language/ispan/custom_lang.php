@@ -36,7 +36,9 @@ $lang['products'] = 'Nuestros productos';
 $lang['useful'] = 'Enlaces útiles';
 $lang['welcome'] = 'Bienvenido a Muynak';
 $lang['our_products'] = 'Nuestros productos';
-
+$lang['call'] = 'Llámanos';
+$lang['question'] = 'Si tienes alguna pregunta';
+$lang['number'] = 'Llámanos al +998944580715';
 
 
 

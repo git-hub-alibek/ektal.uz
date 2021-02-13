@@ -9,7 +9,7 @@
                                         <div class="col-lg-6 col-md-7 col-sm-8 offset-lg-6 offset-md-5 offset-5 col-7">
                                             <div class="square-shape">
                                                 <span class="shapewrapper-inner anim-1">EKTAL</span>
-                                                <h1 class="anim-2 white-color"><strong><?php echo lang('title1');?></strong></h1>
+                                                <h1 class="anim-2 white-color"><strong><?php echo lang('title2');?></strong></h1>
                                                 <div class="tagline anim-3"> </div>
                                             </div>
                                         </div>
@@ -25,7 +25,7 @@
                                         <div class="col-xl-6 col-lg-7 col-md-7 col-sm-8 ">
                                             <div class="square-shape">
                                                 <span class="shapewrapper-inner anim-1">EKTAL</span>
-                                                <h1 class="anim-2 white-color"><strong><?php echo lang('title2');?></strong></h1>
+                                                <h1 class="anim-2 white-color"><strong><?php echo lang('title1');?></strong></h1>
                                                 
                                             </div>
                                         </div>

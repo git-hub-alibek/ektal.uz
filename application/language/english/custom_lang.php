@@ -35,6 +35,9 @@ $lang['copyright'] = 'Designed by:';
 $lang['products'] = 'Our products';
 $lang['useful'] = 'Useful links';
 $lang['welcome'] = 'Welcome to Muynak';
+$lang['call'] = 'Call Us';
+$lang['question'] = 'If you Have Any Questions';
+$lang['number'] = 'Call Us On +998944580715';
 
 
 
