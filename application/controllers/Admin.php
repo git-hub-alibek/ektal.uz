@@ -52,19 +52,15 @@ class Admin extends CI_Controller {
 	public function feedback()
 	{
 		$crud=new grocery_CRUD();
-		$crud->columns('id', 'statement', 'date', 'full_name', 'user_info', 'text', 'department_id', 'doctor_id', 'post_scriptum');
+		$crud->columns('id', 'statement', 'date', 'full_name', 'user_info', 'text', 'post_scriptum');
 		$crud->display_as('id', '#');
-		$crud->display_as('statement', 'Жағдай');
+		$crud->display_as('statement', 'Состояние');
 		$crud->set_relation('statement', 'feedback_statement', 'title');
-		$crud->display_as('date', 'Сәне');
-		$crud->display_as('full_name', 'Пайдаланыўшы аты');
-		$crud->display_as('user_info', 'Мағлыўмат');
+		$crud->display_as('date', 'Дата');
+		$crud->display_as('full_name', 'Имя пользователя');
+		$crud->display_as('user_info', 'Инфо о пользователе');
 		$crud->display_as('text', 'Текст');
-		$crud->display_as('department_id', 'Бөлим');
-		$crud->set_relation('department_id', 'departments', 'title_kk');
-		$crud->display_as('doctor_id', 'Шыпакер');
-		$crud->set_relation('doctor_id', 'doctors', 'full_name');
-		$crud->display_as('post_scriptum', 'Қосымша мағлыўмат');
+		$crud->display_as('post_scriptum', 'Д.п. информация');
 		$output=$crud->render();
 		$this->_example_output($output);
 	}

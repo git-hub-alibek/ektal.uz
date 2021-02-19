@@ -21,7 +21,11 @@ class Homepage extends CI_Controller {
 	public function index()
 	{
 		$this->data['products'] = $this->db->get('products')->result_array();
+		$this->data['feedback'] = $this->db->where('statement', 1)->get('feedback')->result();
 
+		$site_lang = $this->uri->segment(1);
+		$this->data['faq'] = $this->db->select("id, question_".$site_lang." AS question, answer_".$site_lang." AS answer")->get('faq')->result();
+		
 		$this->load->view('homepage', $this->data);
 	}
 }

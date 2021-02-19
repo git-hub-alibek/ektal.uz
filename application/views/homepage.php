@@ -124,7 +124,7 @@
 <!-- Action Box end -->
 
             
-<?php /*
+
             <!-- Testimonial -->
             <section class="section-mdt">
                 <div class="container">
@@ -139,70 +139,33 @@
                     <div class="row pt-5 pt-md-0">
                         <div class="col-md-12">
                             <div class="slick-carousel testimonialbox-style-1-main" data-autoplay="true" data-dots="true" data-arrows="false" data-slides="2" data-tslides="2" data-islides="1">
+                            <?php foreach($feedback as $feed): ?>
                                 <!-- slide-1 -->
                                 <div class="">
                                     <div class="testimonialbox testimonialbox-style-1">
                                         <div class="testimonialbox-content">
                                             <div class="testimonialbox-desc">
-                                                <blockquote class="testimonialbox-text">Long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum</blockquote>
+                                                <blockquote class="testimonialbox-text"><?php echo $feed->text; ?></blockquote>
                                             </div>
                                             <div class="testimonialbox-wrap d-flex">
                                                 <div class="testimonialbox-thumbnail">
                                                     <img src="/assets/images/testimonial/testimonial-01.jpg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="testimonialbox-author">
-                                                    <h3 class="author-name">Victoria Porter</h3>
-                                                    <span>CEO at Google INC</span>
+                                                    <h3 class="author-name"><?php echo $feed->full_name; ?></h3>
+                                                    <span><?php echo $feed->user_info; ?></span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- slide-2 -->
-                                <div class="">
-                                    <div class="testimonialbox testimonialbox-style-1">
-                                        <div class="testimonialbox-content">
-                                            <div class="testimonialbox-desc">
-                                                <blockquote class="testimonialbox-text">Long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum</blockquote>
-                                            </div>
-                                            <div class="testimonialbox-wrap d-flex">
-                                                <div class="testimonialbox-thumbnail">
-                                                    <img src="/assets/images/testimonial/testimonial-02.jpg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="testimonialbox-author">
-                                                    <h3 class="author-name">Maria Flynn</h3>
-                                                    <span>CEO at Google INC</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- slide-3 -->
-                                <div class="">
-                                    <div class="testimonialbox testimonialbox-style-1">
-                                        <div class="testimonialbox-content">
-                                            <div class="testimonialbox-desc">
-                                                <blockquote class="testimonialbox-text">Long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum</blockquote>
-                                            </div>
-                                            <div class="testimonialbox-wrap d-flex">
-                                                <div class="testimonialbox-thumbnail">
-                                                    <img src="/assets/images/testimonial/testimonial-03.jpg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="testimonialbox-author">
-                                                    <h3 class="author-name">Gina Kennedy</h3>
-                                                    <span>CEO at Google INC</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <?php endforeach; ?>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Restimonial end -->  */?>
-
+            <!-- Restimonial end -->
             
 
            
@@ -219,54 +182,25 @@
                                 <h4 class="subheading skincolor">FREQUENTLY ASKED QUESTIONS</h4>
                                 <h2>FEEL FREE FOR<br/><strong> ANY FAQS</strong></h2>
                             </div>
-                            <div id="accordion" class="accordion accordion-02">
+                            <div id="accordion" class="accordion accordion-02"> 
+                            <?php $i = 1; ?>
+                            <?php foreach($faq as $f): ?>
                                 <div class="card">
-                                    <div class="card-header" id="headingOne">
+                                    <div class="card-header" id="<?php echo 'heading'.$i; ?>">
                                         <h5 class="mb-0">
-                                            <a class="btn btn-link" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Do you Provide Consultation for free ?</a>
+                                            <a class="btn btn-link <?php echo $i!=1 ? 'collapsed' : ''; ?>" role="button" data-toggle="collapse" data-target="#<?php echo 'collapse'.$i; ?>" aria-expanded="<?php echo $i==1 ? 'true' : 'false'; ?>" aria-controls="<?php echo 'collapse'.$i; ?>"><?php echo $f->question; ?></a>
                                           </h5>
                                     </div>
-
-                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div id="<?php echo 'collapse'.$i; ?>" class="collapse <?php echo $i==1 ? 'show' : ''; ?>" aria-labelledby="<?php echo 'heading'.$i++; ?>" data-parent="#accordion">
                                         <div class="card-body">
                                             <div class="d-flex">
                                                 <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
-                                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
+                                                <div><?php echo $f->answer; ?></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-                                        <h5 class="mb-0">
-                                            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What are the hospital timings ?</a>
-                                          </h5>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                        <div class="card-body">
-                                            <div class="d-flex">
-                                                <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
-                                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingThree">
-                                        <h5 class="mb-0">
-                                            <a class="btn btn-link collapsed" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What is Eye donation?</a>
-                                          </h5>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                        <div class="card-body">
-                                            <div class="d-flex">
-                                                <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
-                                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
+                            <?php endforeach; ?>                                
                             </div>
                         </div>
                     </div>
