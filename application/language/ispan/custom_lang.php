@@ -41,4 +41,6 @@ $lang['question'] = 'Si tienes alguna pregunta';
 $lang['number'] = 'Llámanos al +998944580715';
 
 
-
+$lang['frequenly'] = 'PREGUNTAS FRECUENTES';
+$lang['feel'] = 'SIÉNTETE LIBRE POR';
+$lang['faqs'] = 'CUALQUIER PREGUNTA';

@@ -32,10 +32,11 @@
                         <p class="mb-0">EKTAL ARTEMIA CYSTS</p>
                         <div class="social-links-wrapper">
                             <ul class="social-icons">
-                                <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Flickr"><i class="fa fa-flickr"></i></a></li>
-                                <li><a href="#" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.facebook.com/ektal.artemia/" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/ektaluz" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://intagram.com/ektaluz" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Thubr"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/ektal-artemia-cysts-850189207/" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                <!-- <li><a href="https://ok.ru/profile/577749256055" class="tooltip-top" data-toggle="tooltip" data-placement="top" data-tooltip="Odnoklassniki"><i class="fa fa-odnoklassniki"></i></a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -81,7 +82,7 @@
                 <div class="bottom-footer">
                     <div class="row">
                         <div class="col-sm-6">
-                            <?php echo lang('copyright');?> <a href="https://t.me/nukusweb">NukusWeb</a>
+                            <?php echo lang('copyright');?> <a href="https://texnopos.uz">TexnoPOS</a>
                         </div>
                         <div class="col-sm-6 text-lg-right text-md-right text-sm-left">
                             <ul class="list-inline">

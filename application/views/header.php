@@ -42,7 +42,7 @@
                                             </div>
                                             <div class="media-right">
                                                 <h6><?php echo lang('email');?></h6>
-                                                <h3>ektal.company@gmail.com </h3>
+                                                <h3>ektaluz@umail.uz </h3>
                                             </div>
                                         </div>
                                     </div>

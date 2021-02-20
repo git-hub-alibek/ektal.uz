@@ -121,7 +121,7 @@
                                                 <h2><?php echo lang('email');?></h2>
                                             </div>
                                             <div class="iconbox-desc">
-                                                <p>ektal860@mail.ru</p>
+                                                <p>ektaluz@umail.uz</p>
                                             </div>
                                         </div>
                                     </div>

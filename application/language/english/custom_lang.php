@@ -42,4 +42,7 @@ $lang['number'] = 'Call Us On +998944580715';
 
 
 
+$lang['frequenly'] = 'FREQUENTLY ASKED QUESTIONS';
+$lang['feel'] = 'FEEL FREE FOR';
+$lang['faqs'] = 'ANY FAQS';
 

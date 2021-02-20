@@ -179,8 +179,8 @@
                         
                         <div class="col-lg-12">
                             <div class="section-title text-center">
-                                <h4 class="subheading skincolor">FREQUENTLY ASKED QUESTIONS</h4>
-                                <h2>FEEL FREE FOR<br/><strong> ANY FAQS</strong></h2>
+                                <h4 class="subheading skincolor"><?php echo lang('frequenly');?></h4>
+                                <h2><?php echo lang('feel');?><br/><strong> <?php echo lang('faqs');?></strong></h2>
                             </div>
                             <div id="accordion" class="accordion accordion-02"> 
                             <?php $i = 1; ?>
@@ -194,7 +194,7 @@
                                     <div id="<?php echo 'collapse'.$i; ?>" class="collapse <?php echo $i==1 ? 'show' : ''; ?>" aria-labelledby="<?php echo 'heading'.$i++; ?>" data-parent="#accordion">
                                         <div class="card-body">
                                             <div class="d-flex">
-                                                <img class="pr-4" src="/assets/images/img-04.jpg" alt="" />
+                                              
                                                 <div><?php echo $f->answer; ?></div>
                                             </div>
                                         </div>
