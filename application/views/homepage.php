@@ -69,9 +69,10 @@
     <div class="row justify-content-center">
         <div class="col-lg-7 col-md-9">
             <div class="section-title text-center">
-                <h4 class="subheading skincolor">BEST VISION</h4>
-                <h2>GIVE BEST CARE FOR YOUR EYES <strong>OUR EYE SERVICES</strong></h2>
-                <p class="lead">Expert eyecare, latest eyewear consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <h4 class="subheading skincolor"><?php echo lang('title');?></h4>
+                <h2><strong><?php echo lang('products');?></strong></h2>
+               
+               
             </div>
         </div>
     </div>
@@ -131,8 +132,8 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8">
                             <div class="section-title text-center">
-                                <h4 class="subheading skincolor">PATIENT TESTIMONIALS</h4>
-                                <h2>READ WHAT SAYS<strong><br/> OUR HAPPY PATIENTS</strong></h2>
+                               
+                                <h2><strong><br/><?php echo lang('reviews');?></strong></h2>
                             </div>
                         </div>
                     </div>

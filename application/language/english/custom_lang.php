@@ -46,3 +46,4 @@ $lang['frequenly'] = 'FREQUENTLY ASKED QUESTIONS';
 $lang['feel'] = 'FEEL FREE FOR';
 $lang['faqs'] = 'ANY FAQS';
 
+$lang['reviews'] = 'Reviews about us';

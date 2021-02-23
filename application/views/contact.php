@@ -137,27 +137,29 @@
                             
 <h4><?php echo lang('contact_text');?></h4>
 <div class="contact-form">
-    <form action="<?php echo site_url('contact/send'); ?>">
+    <form>
         <div class="form-row">
             <div class="form-group col-lg-6">
-                <input id="name" type="text" class="form-control" placeholder="<?php echo lang('name');?>" name="Your-Name" autocomplete="off" required>
+                <input id="contact_name" type="text" class="form-control" placeholder="<?php echo lang('name');?>" name="contact_name" autocomplete="off" required>
             </div>
             <div class="form-group col-lg-6">
-                <input id="email" class="form-control" placeholder="<?php echo lang('email');?>" name="email" type="email" value="" aria-required="true" required>
+                <input id="contact_email" class="form-control" placeholder="<?php echo lang('email');?>" name="contact_email" type="email" value="" aria-required="true" required>
             </div>
 <!--             <div class="form-group col-lg-6">
                 <input id="phone" type="text" class="form-control" placeholder="<?php echo lang('phone');?>" name="your-phone">
             </div> -->
             <div class="form-group col-lg-12">
-                <input id="subject" type="text" class="form-control" placeholder="<?php echo lang('subject');?>" name="subject" autocomplete="off" required>
+                <input id="contact_subject" type="text" class="form-control" placeholder="<?php echo lang('subject');?>" name="contact_subject" autocomplete="off" required>
             </div>
             <div class="form-group col-lg-12">
-                <textarea id="comment" class="form-control" placeholder="<?php echo lang('message');?>" name="message" cols="45" rows="5" aria-required="true" required></textarea>
+                <textarea id="contact_message" class="form-control" placeholder="<?php echo lang('message');?>" name="contact_message" cols="45" rows="5" aria-required="true" required></textarea>
             </div>
+           
             <div class="form-group col-lg-12 text-center">
-                <button type="submit" class="btn"><?php echo lang('send');?></button>
+                <button type="submit" id='send' name="send" class="btn"><?php echo lang('send');?></button>
             </div>
         </div>
+        <div id="alert-msg" class="alert-msg"></div>
     </form>
 </div>
                         </div>

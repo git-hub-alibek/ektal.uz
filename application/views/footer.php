@@ -71,7 +71,7 @@
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-comment-1"></i>
-                            <p>ektal860@mail.ru</p>
+                            <p>ektaluz@umail.uz</p>
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-clock"></i>
