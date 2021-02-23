@@ -12,7 +12,7 @@ class Contact extends CI_Controller {
 	public function index()
 	{
 		
-var_dump($this->input->post());die();
+//var_dump($this->input->post());die();
 		if ($this->input->post('send'))
 		{
 //echo 2;die();
