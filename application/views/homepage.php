@@ -112,7 +112,7 @@
         <div class="row justify-content-center text-center">
             <div class="col-lg-12">
                 <div class="play-video white-color">
-                    <a href="https://youtu.be/8TTGbqDISL0" data-rel="prettyPhoto"><i class="themifyicon ti-control-play"></i></a>
+                    <a href="https://youtu.be/imyOChs6d_w" data-rel="prettyPhoto"><i class="themifyicon ti-control-play"></i></a>
                 </div>
                 <div class="section-title pt-4">
                     
@@ -166,7 +166,7 @@
                     </div>
                 </div>
                 <br><br>
-                <p align='center'><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-whatever="@fat"><?php echo lang('review_send');?></button> </p>
+                <p align='center'><button type="button" class="btnModal btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-whatever="@fat"><?php echo lang('review_send');?></button> </p>
                 <!-- MODAL OKNO -->
                 <div id="myModal" class="modal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
@@ -256,7 +256,7 @@
     <?php $this->load->view('script');?>
     <script>
   $(document).ready(function(){
-    $(".btn").click(function(){
+    $(".btnModal").click(function(){
         $("#myModal").modal("show");
     });
 });
