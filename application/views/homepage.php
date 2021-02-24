@@ -165,6 +165,30 @@
                         </div>
                     </div>
                 </div>
+                <br><br>
+                <p align='center'><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-whatever="@fat"><?php echo lang('review_send');?></button> </p>
+                <!-- MODAL OKNO -->
+                <div id="myModal" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><?php echo lang('review_send');?></h5>
+                <button type="button" class="close" data-dismiss="modal">×</button>                
+            </div>
+            <div class="modal-body">
+              
+            <input id="contact_email" class="form-control" placeholder="<?php echo lang('email');?>" name="contact_email" type="email" value="" aria-required="true" required>
+            <textarea id="contact_message" class="form-control" placeholder="<?php echo lang('message');?>" name="contact_message" cols="45" rows="5" aria-required="true" required></textarea>
+                <input id="contact_subject" type="text" class="form-control" placeholder="<?php echo lang('subject');?>" name="contact_subject" autocomplete="off" required>
+              </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"><?php echo lang('close');?></button>
+                <button type="button" class="btn btn-primary"><?php echo lang('review_send');?></button>
+            </div>
+        </div>
+    </div>
+</div>
+                <!-- MODAL OKNO END -->
             </section>
             <!-- Restimonial end -->
             
@@ -230,6 +254,14 @@
         </div>
     </div>
     <?php $this->load->view('script');?>
+    <script>
+  $(document).ready(function(){
+    $(".btn").click(function(){
+        $("#myModal").modal("show");
+    });
+});
+</script>
+    
 </body>
 
 </html>

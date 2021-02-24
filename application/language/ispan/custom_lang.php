@@ -46,4 +46,7 @@ $lang['feel'] = 'SIÉNTETE LIBRE POR';
 $lang['faqs'] = 'CUALQUIER PREGUNTA';
 
 $lang['reviews'] = 'Reseñas sobre nosotros';
+$lang['review_send'] = 'Deja un comentario';
+$lang['close'] = 'Cancelar';
+
 

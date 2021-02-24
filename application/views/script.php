@@ -1,5 +1,5 @@
 <!-- Search Box End Here -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
     <!-- JS
         ============================================ -->
 
@@ -27,3 +27,4 @@
     <script src="/assets/js/jquery.twentytwenty.js"></script>
     <!-- Scripts JS -->
     <script src="/assets/js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
