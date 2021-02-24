@@ -12,10 +12,11 @@ class MY_Lang extends CI_Lang {
 
 	// languages
 	var $languages = array(
+		'en' => 'english',
 		'kk' => 'karakalpak',		
 		'es' => 'ispan',						
 		'uz' => 'uzbek',
-		'en' => 'english',
+		
 	);
 	
 	// special URIs (not localized)
