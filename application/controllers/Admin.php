@@ -49,18 +49,33 @@ class Admin extends CI_Controller {
 		$this->_example_output($output);
 	}
 
-	public function feedback()
+	public function reviews()
 	{
 		$crud=new grocery_CRUD();
 		$crud->columns('id', 'statement', 'date', 'full_name', 'user_info', 'text', 'post_scriptum');
 		$crud->display_as('id', '#');
 		$crud->display_as('statement', 'Состояние');
-		$crud->set_relation('statement', 'feedback_statement', 'title');
+		$crud->set_relation('statement', 'reviews_statement', 'title');
 		$crud->display_as('date', 'Дата');
 		$crud->display_as('full_name', 'Имя пользователя');
 		$crud->display_as('user_info', 'Инфо о пользователе');
 		$crud->display_as('text', 'Текст');
 		$crud->display_as('post_scriptum', 'Д.п. информация');
+		$output=$crud->render();
+		$this->_example_output($output);
+	}
+
+	public function feedback()
+	{
+		$crud=new grocery_CRUD();
+		$crud->columns('id', 'full_name', 'email', 'title', 'text', 'date');
+		$crud->display_as('id', '#');
+		$crud->display_as('date', 'Дата');
+		$crud->display_as('full_name', 'Имя пользователя');
+		$crud->display_as('email', 'Почта');
+		$crud->display_as('title', 'Тема');
+		$crud->display_as('text', 'Текст');
+		$crud->display_as('date', 'Дата');
 		$output=$crud->render();
 		$this->_example_output($output);
 	}

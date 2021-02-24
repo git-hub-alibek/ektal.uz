@@ -137,10 +137,10 @@
                             
 <h4><?php echo lang('contact_text');?></h4>
 <div class="contact-form">
-    <form action="<?php echo site_url('contact/send'); ?>">
+    <form action="<?php echo site_url('contact/send'); ?>" method="post">
         <div class="form-row">
             <div class="form-group col-lg-6">
-                <input id="name" type="text" class="form-control" placeholder="<?php echo lang('name');?>" name="Your-Name" autocomplete="off" required>
+                <input id="name" type="text" class="form-control" placeholder="<?php echo lang('name');?>" name="name" autocomplete="off" required>
             </div>
             <div class="form-group col-lg-6">
                 <input id="email" class="form-control" placeholder="<?php echo lang('email');?>" name="email" type="email" value="" aria-required="true" required>

@@ -139,21 +139,21 @@
                     <div class="row pt-5 pt-md-0">
                         <div class="col-md-12">
                             <div class="slick-carousel testimonialbox-style-1-main" data-autoplay="true" data-dots="true" data-arrows="false" data-slides="2" data-tslides="2" data-islides="1">
-                            <?php foreach($feedback as $feed): ?>
+                            <?php foreach($reviews as $review): ?>
                                 <!-- slide-1 -->
                                 <div class="">
                                     <div class="testimonialbox testimonialbox-style-1">
                                         <div class="testimonialbox-content">
                                             <div class="testimonialbox-desc">
-                                                <blockquote class="testimonialbox-text"><?php echo $feed->text; ?></blockquote>
+                                                <blockquote class="testimonialbox-text"><?php echo $review->text; ?></blockquote>
                                             </div>
                                             <div class="testimonialbox-wrap d-flex">
                                                 <div class="testimonialbox-thumbnail">
                                                     <img src="/assets/images/testimonial/testimonial-01.jpg" class="img-fluid" alt="">
                                                 </div>
                                                 <div class="testimonialbox-author">
-                                                    <h3 class="author-name"><?php echo $feed->full_name; ?></h3>
-                                                    <span><?php echo $feed->user_info; ?></span>
+                                                    <h3 class="author-name"><?php echo $review->full_name; ?></h3>
+                                                    <span><?php echo $review->user_info; ?></span>
                                                 </div>
                                             </div>
                                         </div>

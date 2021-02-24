@@ -32,6 +32,7 @@ foreach($css_files as $file): ?>
 				<a class="btn btn-success" href='<?php echo site_url();?>'><ion-icon name="home"></ion-icon> Главная</a> |
 				<a class="btn btn-primary" href='<?php echo site_url('admin/products');?>'><ion-icon name="newspaper"></ion-icon> Продукты</a> |
 	 			<a class="btn btn-warning" href='<?php echo site_url('admin/faq');?>'><ion-icon name="newspaper"></ion-icon> FAQ</a> |
+	 			<a class="btn btn-warning" href='<?php echo site_url('admin/reviews');?>'><ion-icon name="newspaper"></ion-icon> Отзывы</a> |
 	 			<a class="btn btn-warning" href='<?php echo site_url('admin/feedback');?>'><ion-icon name="newspaper"></ion-icon> Обратная связь</a> |
 				<!--<a class="btn btn-danger" href='<?php echo site_url('admin/departments');?>'><ion-icon name="grid"></ion-icon> Бөлимлер</a> |
 				<a class="btn btn-danger" href='<?php echo site_url('admin/services');?>'><ion-icon name="grid"></ion-icon> Хизметлер</a> |
