@@ -28,9 +28,12 @@ $lang['phone'] = 'Número de teléfono:';
 $lang['our_address'] = 'Nuestra dirección:';
 $lang['contact_text'] = 'Si no puede hacer una llamada, deje una nota aquí';
 $lang['name'] = 'Nombre';
+$lang['user_info'] = 'Edad / Ciudad';
 $lang['subject'] = 'Sujeto';
 $lang['message'] = 'Mensaje';
 $lang['send'] = 'Enviar';
+$lang['success_review'] = 'Su reseña ha sido aceptada y la revisaremos lo antes posible!';
+
 $lang['copyright'] = 'Diseñada por:';
 $lang['products'] = 'Nuestros productos';
 $lang['useful'] = 'Enlaces útiles';

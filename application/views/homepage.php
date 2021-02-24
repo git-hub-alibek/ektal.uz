@@ -126,71 +126,72 @@
 
             
 
-            <!-- Testimonial -->
-            <section class="section-mdt">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8">
-                            <div class="section-title text-center">
-                               
-                                <h2><strong><br/><?php echo lang('reviews');?></strong></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row pt-5 pt-md-0">
-                        <div class="col-md-12">
-                            <div class="slick-carousel testimonialbox-style-1-main" data-autoplay="true" data-dots="true" data-arrows="false" data-slides="2" data-tslides="2" data-islides="1">
-                            <?php foreach($reviews as $review): ?>
-                                <!-- slide-1 -->
-                                <div class="">
-                                    <div class="testimonialbox testimonialbox-style-1">
-                                        <div class="testimonialbox-content">
-                                            <div class="testimonialbox-desc">
-                                                <blockquote class="testimonialbox-text"><?php echo $review->text; ?></blockquote>
-                                            </div>
-                                            <div class="testimonialbox-wrap d-flex">
-                                                <div class="testimonialbox-thumbnail">
-                                                    <img src="/assets/images/testimonial/testimonial-01.jpg" class="img-fluid" alt="">
-                                                </div>
-                                                <div class="testimonialbox-author">
-                                                    <h3 class="author-name"><?php echo $review->full_name; ?></h3>
-                                                    <span><?php echo $review->user_info; ?></span>
-                                                </div>
-                                            </div>
-                                        </div>
+<!-- Testimonial -->
+<section class="section-mdt">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="section-title text-center">
+                   
+                    <h2><strong><br/><?php echo lang('reviews');?></strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5 pt-md-0">
+            <div class="col-md-12">
+                <div class="slick-carousel testimonialbox-style-1-main" data-autoplay="true" data-dots="true" data-arrows="false" data-slides="2" data-tslides="2" data-islides="1">
+                <?php foreach($reviews as $review): ?>
+                    <!-- slide-1 -->
+                    <div class="">
+                        <div class="testimonialbox testimonialbox-style-1">
+                            <div class="testimonialbox-content">
+                                <div class="testimonialbox-desc">
+                                    <blockquote class="testimonialbox-text"><?php echo $review->text; ?></blockquote>
+                                </div>
+                                <div class="testimonialbox-wrap d-flex">
+                                    <div class="testimonialbox-thumbnail">
+                                        <img src="/assets/images/testimonial/testimonial-01.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="testimonialbox-author">
+                                        <h3 class="author-name"><?php echo $review->full_name; ?></h3>
+                                        <span><?php echo $review->user_info; ?></span>
                                     </div>
                                 </div>
-                            <?php endforeach; ?>
                             </div>
                         </div>
                     </div>
+                <?php endforeach; ?>
                 </div>
-                <br><br>
-                <p align='center'><button type="button" class="btnModal btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-whatever="@fat"><?php echo lang('review_send');?></button> </p>
-                <!-- MODAL OKNO -->
-                <div id="myModal" class="modal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title"><?php echo lang('review_send');?></h5>
-                <button type="button" class="close" data-dismiss="modal">×</button>                
-            </div>
-            <div class="modal-body">
-              
-            <input id="contact_email" class="form-control" placeholder="<?php echo lang('email');?>" name="contact_email" type="email" value="" aria-required="true" required>
-            <textarea id="contact_message" class="form-control" placeholder="<?php echo lang('message');?>" name="contact_message" cols="45" rows="5" aria-required="true" required></textarea>
-                <input id="contact_subject" type="text" class="form-control" placeholder="<?php echo lang('subject');?>" name="contact_subject" autocomplete="off" required>
-              </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal"><?php echo lang('close');?></button>
-                <button type="button" class="btn btn-primary"><?php echo lang('review_send');?></button>
             </div>
         </div>
     </div>
-</div>
-                <!-- MODAL OKNO END -->
-            </section>
-            <!-- Restimonial end -->
+    <br><br>
+    <p align='center'><button type="button" class="btnModal btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" data-bs-whatever="@fat"><?php echo lang('review_send');?></button> </p>
+    <!-- MODAL OKNO -->
+    <div id="myModal" class="modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><?php echo lang('review_send');?></h5>
+                    <button type="button" class="close" data-dismiss="modal">×</button>                
+                </div>
+                <div class="modal-body" style="display: flex; justify-content: center;">
+                <form method="post">
+                    <input id="contact_name" type="text" class="form-control" placeholder="<?php echo lang('name');?>" name="contact_name" autocomplete="off" required>
+                    <input id="contact_info" type="text" class="form-control" placeholder="<?php echo lang('user_info');?>" name="contact_info" autocomplete="off" required>
+                    <textarea id="contact_message" class="form-control" placeholder="<?php echo lang('message');?>" name="contact_message" cols="45" rows="5" aria-required="true" required></textarea><br>
+                    <div style="display: flex; justify-content: center;">
+                        <input type="submit" name="send" class="btn btn-primary" value="<?php echo lang('review_send');?>">
+                    </div>
+                </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- MODAL OKNO END -->
+</section>
+<!-- Restimonial end -->
             
 
            

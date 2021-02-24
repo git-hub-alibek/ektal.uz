@@ -28,9 +28,12 @@ $lang['phone'] = 'Телефон рақам:';
 $lang['our_address'] = 'Бизнинг манзил:';
 $lang['contact_text'] = 'Агар сиз қўнғироқ қила олмасангиз, бу эрда хабар қолдиринг';
 $lang['name'] = 'Исмингиз';
+$lang['user_info'] = 'Ёшингиз / Каердансиз';
 $lang['subject'] = 'Мавзу';
 $lang['message'] = 'Хабар';
 $lang['send'] = 'Юбориш';
+$lang['success_review'] = 'Sizning sharhingiz qabul qilindi va biz uni tez orada ko\'rib chiqamiz!';
+
 $lang['copyright'] = 'Сайт ислеген:';
 $lang['products'] = 'Бизнинг махсулотлар';
 $lang['useful'] = 'Фойдали хаволалар';

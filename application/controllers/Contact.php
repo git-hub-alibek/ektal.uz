@@ -15,13 +15,7 @@ class Contact extends CI_Controller {
 //var_dump($this->input->post());die();
 		if ($this->input->post('send'))
 		{
-//echo 2;die();
-			$this->form_validation->set_rules('contact_name','contact_name','required|trim');
-			$this->form_validation->set_rules('contact_subject','contact_subject','required|trim');
-			$this->form_validation->set_rules('contact_email','contact_mail','valid_email|required');
-			$this->form_validation->set_rules('contact_message','contact_message','required|trim');
-			//$this->form_validation->set_rules('captcha','Защитный код','required|callback_captcha_check');
-//echo 3;die();
+
 			if ($this->form_validation->run()==TRUE)
 			{
 			    //echo 4;die();
@@ -60,9 +54,9 @@ class Contact extends CI_Controller {
 			
 		}
 //echo 4;
-echo validation_errors();
-		$data["title"] = "Обратная связь";
-		$this->load->view("contact");
+		echo validation_errors();
+		
+		$this->load->view("contact", $this->data);
 	
 		
 	}
