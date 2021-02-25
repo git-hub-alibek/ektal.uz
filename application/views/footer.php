@@ -67,7 +67,7 @@
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-mobile"></i>
-                            <p>+998944580715</p>
+                            <p>+998995781176</p>
                         </div>
                         <div class="d-flex">
                             <i class="optico-icon-comment-1"></i>

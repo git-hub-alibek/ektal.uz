@@ -52,4 +52,5 @@ $lang['reviews'] = 'Reseñas sobre nosotros';
 $lang['review_send'] = 'Deja un comentario';
 $lang['close'] = 'Cancelar';
 
+$lang['get_offer'] = 'Obtener oferta';
 

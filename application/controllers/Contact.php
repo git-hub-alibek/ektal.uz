@@ -56,7 +56,7 @@ class Contact extends CI_Controller {
 //echo 4;
 		echo validation_errors();
 		
-		$this->load->view("contact", $this->data);
+		$this->load->view("contact");
 	
 		
 	}

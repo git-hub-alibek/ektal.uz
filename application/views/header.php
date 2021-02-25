@@ -55,13 +55,13 @@
                                             </div>
                                             <div class="media-right">
                                                 <h6><?php echo lang('call_us');?></h6>
-                                                <h3>+998944580715 </h3>
+                                                <h3>+998995781176 </h3>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="info-widget">
                                         <div class="header-button">
-                                            <a href="tel:+998944580715" class="btn btn-outline"><?php echo lang('call');?></a>
+                                            <a href="tel:+998995781176" class="btn btn-outline"><?php echo lang('call');?></a>
                                         </div>
                                     </div>
                                 </div>

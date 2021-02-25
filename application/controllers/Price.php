@@ -6,6 +6,7 @@ class Price extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->view('price');
+		$this->data['products'] = $this->db->get('products')->result_array();
+		$this->load->view('price',$this->data);
 	}
 }
