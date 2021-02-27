@@ -55,4 +55,6 @@ $lang['faqs'] = 'ANY FAQS';
 $lang['reviews'] = 'Reviews about us';
 $lang['review_send'] = 'Leave a comment';
 $lang['close'] = 'Cancel';
+$lang['get_offer'] = 'Get offer';
+
 

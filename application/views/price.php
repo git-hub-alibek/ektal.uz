@@ -65,10 +65,8 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-7 col-md-9">
                             <div class="section-title white-color text-center">
-                                <h4 class="subheading">OUR PRICING</h4>
-                                <h2>YOUR HEALTH IS MOST<strong><br/> IMPORTANT WITH GREAT PRICES</strong></h2>
-                                <p>Clear Eye care services to everyone with adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                            </div>
+                                <h1 class="subheading"><?php echo lang('menu_price');?></h1>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -77,66 +75,31 @@
             <section class="pricing-table-sec bg-lightgrey">
                 <div class="container">
                     <div class="row">
+                    <?php foreach($products as $product): ?>
                         <div class="col-md-4">
                             <div class="pricing-tablebox">
                                 <div class="pricingtable-main">
-                                    <div class="pricingtable-icon medium-icon">
-                                        <i class="flaticon-icon flaticon-eye"></i>
-                                    </div>
-                                    <h3 class="pricingtable-title">Eye Treatment</h3>
+                                    
+                                    <a href="<?php echo site_url('product/show/'.$product['id']); ?>"><img src="/uploads/<?php echo $product['img']; ?>" class="img-fluid" alt=""></a>
+                                   
+                                    <h3 class="pricingtable-title">
+                                    <a href="<?php echo site_url('product/show/'.$product['id']); ?>"><?php echo $product['name_'.$this->uri->segment(1)]; ?></a>
+                                    </h3>
                                     <div class="pricingtable-desc">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                                    <p><?php echo $product['info_short_'.$this->uri->segment(1)]; ?></p>
                                     </div>
                                     <div class="pricingtable-pricebox">
-                                        <div class="pricingtable-price">15%</div>
-                                        <h4 class="pricingtable-discount">Discount</h4>
+                                        <div class="pricingtable-price"><?php echo $product['price'];?></div>
+                                       
                                     </div>
                                 </div>
                                 <div class="pricingtable-btn">
-                                    <a href="#" class="btn">GET OFFER</a>
+                                    <a href="contact" class="btn"><?php echo lang('get_offer');?></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="pricing-tablebox">
-                                <div class="pricingtable-main">
-                                    <div class="pricingtable-icon medium-icon">
-                                        <i class="flaticon-icon flaticon-eye-2"></i>
-                                    </div>
-                                    <h3 class="pricingtable-title">Cornea Services</h3>
-                                    <div class="pricingtable-desc">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                    </div>
-                                    <div class="pricingtable-pricebox">
-                                        <div class="pricingtable-price">25%</div>
-                                        <h4 class="pricingtable-discount">Discount</h4>
-                                    </div>
-                                </div>
-                                <div class="pricingtable-btn">
-                                    <a href="#" class="btn">GET OFFER</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="pricing-tablebox">
-                                <div class="pricingtable-main">
-                                    <div class="pricingtable-icon medium-icon">
-                                        <i class="flaticon-icon flaticon-contact-lens-4"></i>
-                                    </div>
-                                    <h3 class="pricingtable-title">Contact Lens</h3>
-                                    <div class="pricingtable-desc">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                                    </div>
-                                    <div class="pricingtable-pricebox">
-                                        <div class="pricingtable-price">18%</div>
-                                        <h4 class="pricingtable-discount">Discount</h4>
-                                    </div>
-                                </div>
-                                <div class="pricingtable-btn">
-                                    <a href="#" class="btn">GET OFFER</a>
-                                </div>
-                            </div>
-                        </div>
+                       
+                    <?php endforeach;?>
                     </div>
                 </div>
             </section>
