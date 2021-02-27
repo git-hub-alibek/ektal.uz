@@ -41,12 +41,12 @@
 				                <?php endforeach?>
 							</td>
 							<td><?php echo ($user->active) ? anchor("auth/deactivate/".$user->id, lang('index_active_link')) : anchor("auth/activate/". $user->id, lang('index_inactive_link'));?></td>
-							<td><a href="/auth/edit_user/<?php echo $user->id; ?>" title="Өзгертиў"><span class="glyphicon glyphicon-pencil"></span></a> | <a href="/auth/delete_user/<?php echo $user->id; ?>" title="Өшириў"><span class="glyphicon glyphicon-remove-sign"></span></a></td>
+							<td><a href="<?php echo site_url('auth/edit_user/'.$user->id); ?>" title="Изменить"><span class="glyphicon glyphicon-pencil">Изменить</span></a> | <a href="<?php echo site_url('auth/delete_user/'.$user->id); ?>" title="Удалить"><span class="glyphicon glyphicon-remove-sign">Удалить</span></a></td>
 						</tr>
 					<?php endforeach;?>
 				</table>
 
-				<p><a href="/auth/create_user" class="btn btn-success">+ Доваить пользователя</a> | <a href="/auth/create_group" class="btn btn-success">+ Добавить группу</a></p>
+				<p><a href="<?php echo site_url('auth/create_user'); ?>" class="btn btn-success">+ Добавить пользователя</a> | <a href="<?php echo site_url('auth/create_group'); ?>" class="btn btn-success">+ Добавить группу</a></p>
 			</div>
 		</div>
 	</div>

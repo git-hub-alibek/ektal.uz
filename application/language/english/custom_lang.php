@@ -32,7 +32,10 @@ $lang['user_info'] = 'Age / City';
 $lang['subject'] = 'Subject';
 $lang['message'] = 'Message';
 $lang['send'] = 'Send';
-$lang['success_review'] = 'Your review has been accepted and we will review it as soon as possible!';
+$lang['success_review'] = 'Your comment has been accepted and we will review it as soon as possible!';
+$lang['success_feedback'] = 'Your message has been accepted and we will review it as soon as possible!';
+$lang['error_feedback'] = 'Error! Please try again.';
+
 
 $lang['copyright'] = 'Designed by:';
 $lang['products'] = 'Our products';

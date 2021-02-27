@@ -33,6 +33,9 @@ $lang['subject'] = 'Sujeto';
 $lang['message'] = 'Mensaje';
 $lang['send'] = 'Enviar';
 $lang['success_review'] = 'Su reseña ha sido aceptada y la revisaremos lo antes posible!';
+$lang['success_feedback'] = 'Su mensaje ha sido aceptado y lo revisaremos lo antes posible!';
+$lang['error_feedback'] = '¡Error! Inténtalo de nuevo.';
+
 
 $lang['copyright'] = 'Diseñada por:';
 $lang['products'] = 'Nuestros productos';
@@ -41,7 +44,7 @@ $lang['welcome'] = 'Bienvenido a Muynak';
 $lang['our_products'] = 'Nuestros productos';
 $lang['call'] = 'Llámanos';
 $lang['question'] = 'Si tienes alguna pregunta';
-$lang['number'] = 'Llámanos al +998944580715';
+$lang['number'] = 'Llámanos al +998995781176';
 
 
 $lang['frequenly'] = 'PREGUNTAS FRECUENTES';
@@ -52,4 +55,5 @@ $lang['reviews'] = 'Reseñas sobre nosotros';
 $lang['review_send'] = 'Deja un comentario';
 $lang['close'] = 'Cancelar';
 
+$lang['get_offer'] = 'Obtener oferta';
 

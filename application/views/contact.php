@@ -52,6 +52,7 @@
         <?php $this->load->view('header.php');?>
         <!-- Header Main Area End Here -->
 
+        
         <!-- page content -->
         <div class="page-content">
 
@@ -156,7 +157,7 @@
             </div>
            
             <div class="form-group col-lg-12 text-center">
-                <button type="submit" id='send' name="send" class="btn"><?php echo lang('send');?></button>
+                <input type="submit" id='send' name="send" class="btn" value="<?php echo lang('send');?>">
             </div>
         </div>
         <div id="alert-msg" class="alert-msg"></div>

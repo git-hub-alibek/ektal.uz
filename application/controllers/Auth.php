@@ -729,6 +729,17 @@ class Auth extends CI_Controller
 	}
 
 	/**
+	 * Delete a user
+	 */
+	public function delete_user($id = false)
+	{
+		if($this->ion_auth->delete_user($id))
+			redirect('auth/index');
+		else
+			redirect('admin');
+	}
+
+	/**
 	 * Create a new group
 	 */
 	public function create_group()

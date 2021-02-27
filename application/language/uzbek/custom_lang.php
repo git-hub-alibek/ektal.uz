@@ -8,7 +8,7 @@ $lang['menu_about'] = 'Биз ҳақимизда';
 $lang['menu_price'] = 'Баҳолар';
 $lang['menu_contact'] = 'Алоқа';
 $lang['adress'] = 'Қорақалпоғистан Республикаси, Мўйноқ тумани, Темур кўчаси, 26 -үй';
-$lang['email'] = 'Електрон почта манзили';
+$lang['email'] = 'Электрон почта манзили';
 $lang['call_us'] = 'Бизга ҳозир-оқ қўнғироқ қилинг';
 $lang['appointment'] = 'Буюртма бериш';
 $lang['title1'] = 'Қуруқ артемия цисталари';
@@ -32,7 +32,9 @@ $lang['user_info'] = 'Ёшингиз / Каердансиз';
 $lang['subject'] = 'Мавзу';
 $lang['message'] = 'Хабар';
 $lang['send'] = 'Юбориш';
-$lang['success_review'] = 'Sizning sharhingiz qabul qilindi va biz uni tez orada ko\'rib chiqamiz!';
+$lang['success_review'] = 'Сизнинг шарҳингиз қабул қилинди ва биз уни тез орада ко\'риб чиқамиз!';
+$lang['success_feedback'] = 'Сизнинг мурожатингиз қабул қилинди ва биз уни тез орада ко\'риб чиқамиз!';
+$lang['error_feedback'] = 'Ҳатолик! Илтимос қайтадан уриниб ко\'ринг.';
 
 $lang['copyright'] = 'Сайт ислеген:';
 $lang['products'] = 'Бизнинг махсулотлар';
@@ -50,6 +52,7 @@ $lang['faqs'] = 'ҲАР ҚАНДАЙ САВОЛ';
 $lang['reviews'] = 'Биз ҳаққимизда фикирлар';
 $lang['review_send'] = 'Фикир билдириш';
 $lang['close'] = 'Бекор қилиш';
+$lang['get_offer'] = 'Буйиртма қилиш';
 
 
 
